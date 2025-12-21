@@ -1,9 +1,12 @@
 {
   "metadata": {
-    "version": "1.0.0",
+    "version": "2.1.0",
     "lastUpdated": "2025-12-21",
-    "totalServers": 35,
-    "dataSource": "awesome-mcp-servers, modelcontextprotocol/servers, mcp.so, mcpservers.org"
+    "totalServers": 258,
+    "previousCount": 150,
+    "dataSource": "awesome-mcp-servers (punkpeye, wong2, appcypher, TensorBlock), modelcontextprotocol/servers, mcp.so, mcpservers.org",
+    "metricsUpdated": "2025-12-21T17:38:03.405Z",
+    "serversWithMetrics": 210
   },
   "categories": [
     "filesystem",
@@ -30,9 +33,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
       "installCommand": "npx -y @modelcontextprotocol/server-filesystem",
       "isOfficial": true,
-      "tags": ["files", "read", "write", "directory"],
-      "bestFor": ["Managing project files", "Reading code", "Writing configuration"],
-      "rating": 5
+      "tags": [
+        "files",
+        "read",
+        "write",
+        "directory"
+      ],
+      "bestFor": [
+        "Managing project files",
+        "Reading code",
+        "Writing configuration"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "git",
@@ -44,9 +63,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
       "installCommand": "npx -y @modelcontextprotocol/server-git",
       "isOfficial": true,
-      "tags": ["git", "version-control", "commits", "branches"],
-      "bestFor": ["Code review", "History analysis", "Branch management"],
-      "rating": 5
+      "tags": [
+        "git",
+        "version-control",
+        "commits",
+        "branches"
+      ],
+      "bestFor": [
+        "Code review",
+        "History analysis",
+        "Branch management"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "memory",
@@ -58,9 +93,24 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
       "installCommand": "npx -y @modelcontextprotocol/server-memory",
       "isOfficial": true,
-      "tags": ["memory", "knowledge-graph", "persistence"],
-      "bestFor": ["Long-term context", "Project knowledge", "Personal notes"],
-      "rating": 4
+      "tags": [
+        "memory",
+        "knowledge-graph",
+        "persistence"
+      ],
+      "bestFor": [
+        "Long-term context",
+        "Project knowledge",
+        "Personal notes"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "fetch",
@@ -72,9 +122,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
       "installCommand": "npx -y @modelcontextprotocol/server-fetch",
       "isOfficial": true,
-      "tags": ["web", "fetch", "scraping", "content"],
-      "bestFor": ["Reading documentation", "Research", "Content extraction"],
-      "rating": 4
+      "tags": [
+        "web",
+        "fetch",
+        "scraping",
+        "content"
+      ],
+      "bestFor": [
+        "Reading documentation",
+        "Research",
+        "Content extraction"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "sequential-thinking",
@@ -86,9 +152,24 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
       "installCommand": "npx -y @modelcontextprotocol/server-sequentialthinking",
       "isOfficial": true,
-      "tags": ["reasoning", "thinking", "problem-solving"],
-      "bestFor": ["Complex analysis", "Multi-step problems", "Planning"],
-      "rating": 4
+      "tags": [
+        "reasoning",
+        "thinking",
+        "problem-solving"
+      ],
+      "bestFor": [
+        "Complex analysis",
+        "Multi-step problems",
+        "Planning"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "time",
@@ -100,9 +181,24 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
       "installCommand": "npx -y @modelcontextprotocol/server-time",
       "isOfficial": true,
-      "tags": ["time", "timezone", "date"],
-      "bestFor": ["Scheduling", "Time calculations", "Global teams"],
-      "rating": 3
+      "tags": [
+        "time",
+        "timezone",
+        "date"
+      ],
+      "bestFor": [
+        "Scheduling",
+        "Time calculations",
+        "Global teams"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "playwright",
@@ -114,9 +210,25 @@
       "githubUrl": "https://github.com/microsoft/playwright-mcp",
       "installCommand": "npx -y @anthropic-ai/mcp-server-playwright",
       "isOfficial": true,
-      "tags": ["browser", "automation", "testing", "scraping"],
-      "bestFor": ["Web automation", "Testing", "Data extraction"],
-      "rating": 5
+      "tags": [
+        "browser",
+        "automation",
+        "testing",
+        "scraping"
+      ],
+      "bestFor": [
+        "Web automation",
+        "Testing",
+        "Data extraction"
+      ],
+      "rating": 3,
+      "stars": 24584,
+      "forks": 2008,
+      "openIssues": 24,
+      "lastUpdated": "2025-12-20",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 53
     },
     {
       "id": "puppeteer",
@@ -128,9 +240,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
       "installCommand": "npx -y @modelcontextprotocol/server-puppeteer",
       "isOfficial": true,
-      "tags": ["browser", "puppeteer", "screenshots", "automation"],
-      "bestFor": ["Screenshots", "Form automation", "Web testing"],
-      "rating": 4
+      "tags": [
+        "browser",
+        "puppeteer",
+        "screenshots",
+        "automation"
+      ],
+      "bestFor": [
+        "Screenshots",
+        "Form automation",
+        "Web testing"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "postgresql",
@@ -142,9 +270,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
       "installCommand": "npx -y @modelcontextprotocol/server-postgres",
       "isOfficial": true,
-      "tags": ["database", "postgresql", "sql", "query"],
-      "bestFor": ["Data analysis", "Schema exploration", "Reporting"],
-      "rating": 5
+      "tags": [
+        "database",
+        "postgresql",
+        "sql",
+        "query"
+      ],
+      "bestFor": [
+        "Data analysis",
+        "Schema exploration",
+        "Reporting"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "sqlite",
@@ -156,9 +300,56 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
       "installCommand": "npx -y @modelcontextprotocol/server-sqlite",
       "isOfficial": true,
-      "tags": ["database", "sqlite", "sql", "local"],
-      "bestFor": ["Local databases", "Prototyping", "Small projects"],
-      "rating": 4
+      "tags": [
+        "database",
+        "sqlite",
+        "sql",
+        "local"
+      ],
+      "bestFor": [
+        "Local databases",
+        "Prototyping",
+        "Small projects"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "github-official",
+      "name": "GitHub Official",
+      "description": "Official GitHub MCP server for repository operations. Complete GitHub workflow integration.",
+      "category": "version-control",
+      "author": "GitHub",
+      "authorUrl": "https://github.com/github",
+      "githubUrl": "https://github.com/github/github-mcp-server",
+      "installCommand": "npx -y @github/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "github",
+        "repos",
+        "issues",
+        "prs",
+        "official"
+      ],
+      "bestFor": [
+        "GitHub workflows",
+        "Repository management",
+        "CI/CD"
+      ],
+      "rating": 3,
+      "stars": 25332,
+      "forks": 3244,
+      "openIssues": 269,
+      "lastUpdated": "2025-12-21",
+      "language": "Go",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "github",
@@ -170,9 +361,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github",
       "installCommand": "npx -y @modelcontextprotocol/server-github",
       "isOfficial": true,
-      "tags": ["github", "repos", "issues", "prs"],
-      "bestFor": ["Repository management", "Issue tracking", "Code collaboration"],
-      "rating": 5
+      "tags": [
+        "github",
+        "repos",
+        "issues",
+        "prs"
+      ],
+      "bestFor": [
+        "Repository management",
+        "Issue tracking",
+        "Code collaboration"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "gitlab",
@@ -184,9 +391,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab",
       "installCommand": "npx -y @modelcontextprotocol/server-gitlab",
       "isOfficial": true,
-      "tags": ["gitlab", "repos", "pipelines", "ci-cd"],
-      "bestFor": ["GitLab users", "CI/CD management", "Code review"],
-      "rating": 4
+      "tags": [
+        "gitlab",
+        "repos",
+        "pipelines",
+        "ci-cd"
+      ],
+      "bestFor": [
+        "GitLab users",
+        "CI/CD management",
+        "Code review"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "slack",
@@ -198,9 +421,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
       "installCommand": "npx -y @modelcontextprotocol/server-slack",
       "isOfficial": true,
-      "tags": ["slack", "messaging", "team", "communication"],
-      "bestFor": ["Team updates", "Channel management", "Message automation"],
-      "rating": 4
+      "tags": [
+        "slack",
+        "messaging",
+        "team",
+        "communication"
+      ],
+      "bestFor": [
+        "Team updates",
+        "Channel management",
+        "Message automation"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "google-drive",
@@ -212,9 +451,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive",
       "installCommand": "npx -y @modelcontextprotocol/server-gdrive",
       "isOfficial": true,
-      "tags": ["google", "drive", "documents", "cloud"],
-      "bestFor": ["Document management", "File search", "Cloud storage"],
-      "rating": 4
+      "tags": [
+        "google",
+        "drive",
+        "documents",
+        "cloud"
+      ],
+      "bestFor": [
+        "Document management",
+        "File search",
+        "Cloud storage"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "brave-search",
@@ -226,9 +481,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search",
       "installCommand": "npx -y @modelcontextprotocol/server-brave-search",
       "isOfficial": true,
-      "tags": ["search", "brave", "web", "privacy"],
-      "bestFor": ["Web research", "Privacy-focused search", "Information lookup"],
-      "rating": 4
+      "tags": [
+        "search",
+        "brave",
+        "web",
+        "privacy"
+      ],
+      "bestFor": [
+        "Web research",
+        "Privacy-focused search",
+        "Information lookup"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "cloudflare",
@@ -240,9 +511,25 @@
       "githubUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
       "installCommand": "npx -y @cloudflare/mcp-server-cloudflare",
       "isOfficial": true,
-      "tags": ["cloudflare", "workers", "edge", "cdn"],
-      "bestFor": ["Edge deployment", "KV storage", "Workers development"],
-      "rating": 5
+      "tags": [
+        "cloudflare",
+        "workers",
+        "edge",
+        "cdn"
+      ],
+      "bestFor": [
+        "Edge deployment",
+        "KV storage",
+        "Workers development"
+      ],
+      "rating": 3,
+      "stars": 3214,
+      "forks": 307,
+      "openIssues": 41,
+      "lastUpdated": "2025-12-02",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 53
     },
     {
       "id": "supabase",
@@ -254,23 +541,55 @@
       "githubUrl": "https://github.com/supabase-community/supabase-mcp",
       "installCommand": "npx -y supabase-mcp",
       "isOfficial": true,
-      "tags": ["supabase", "database", "auth", "realtime"],
-      "bestFor": ["Full-stack development", "Authentication", "Realtime apps"],
-      "rating": 5
+      "tags": [
+        "supabase",
+        "database",
+        "auth",
+        "realtime"
+      ],
+      "bestFor": [
+        "Full-stack development",
+        "Authentication",
+        "Realtime apps"
+      ],
+      "rating": 3,
+      "stars": 2338,
+      "forks": 269,
+      "openIssues": 68,
+      "lastUpdated": "2025-12-18",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 53
     },
     {
       "id": "redis",
       "name": "Redis",
       "description": "Access Redis databases. Interact with key-value stores for caching and session management.",
       "category": "database",
-      "author": "Anthropic",
-      "authorUrl": "https://github.com/modelcontextprotocol",
-      "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis",
-      "installCommand": "npx -y @modelcontextprotocol/server-redis",
+      "author": "Redis",
+      "authorUrl": "https://github.com/redis",
+      "githubUrl": "https://github.com/redis/mcp-redis",
+      "installCommand": "npx -y @redis/mcp-server",
       "isOfficial": true,
-      "tags": ["redis", "cache", "key-value", "session"],
-      "bestFor": ["Caching", "Session management", "Fast data access"],
-      "rating": 4
+      "tags": [
+        "redis",
+        "cache",
+        "key-value",
+        "session"
+      ],
+      "bestFor": [
+        "Caching",
+        "Session management",
+        "Fast data access"
+      ],
+      "rating": 3,
+      "stars": 367,
+      "forks": 82,
+      "openIssues": 7,
+      "lastUpdated": "2025-12-15",
+      "language": "Python",
+      "license": "MIT",
+      "score": 46
     },
     {
       "id": "sentry",
@@ -282,9 +601,25 @@
       "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry",
       "installCommand": "npx -y @modelcontextprotocol/server-sentry",
       "isOfficial": true,
-      "tags": ["sentry", "errors", "monitoring", "debugging"],
-      "bestFor": ["Error tracking", "Debugging", "Performance monitoring"],
-      "rating": 4
+      "tags": [
+        "sentry",
+        "errors",
+        "monitoring",
+        "debugging"
+      ],
+      "bestFor": [
+        "Error tracking",
+        "Debugging",
+        "Performance monitoring"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 121,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-28",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
     },
     {
       "id": "firecrawl",
@@ -296,9 +631,25 @@
       "githubUrl": "https://github.com/mendableai/firecrawl-mcp-server",
       "installCommand": "npx -y firecrawl-mcp",
       "isOfficial": false,
-      "tags": ["scraping", "crawling", "extraction", "web"],
-      "bestFor": ["Website crawling", "Data extraction", "Content scraping"],
-      "rating": 5
+      "tags": [
+        "scraping",
+        "crawling",
+        "extraction",
+        "web"
+      ],
+      "bestFor": [
+        "Website crawling",
+        "Data extraction",
+        "Content scraping"
+      ],
+      "rating": 3,
+      "stars": 5106,
+      "forks": 558,
+      "openIssues": 68,
+      "lastUpdated": "2025-12-18",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 45
     },
     {
       "id": "exa",
@@ -310,9 +661,25 @@
       "githubUrl": "https://github.com/exa-labs/exa-mcp-server",
       "installCommand": "npx -y @anthropic-ai/mcp-server-exa",
       "isOfficial": false,
-      "tags": ["search", "ai", "semantic", "research"],
-      "bestFor": ["AI research", "Semantic search", "Knowledge discovery"],
-      "rating": 4
+      "tags": [
+        "search",
+        "ai",
+        "semantic",
+        "research"
+      ],
+      "bestFor": [
+        "AI research",
+        "Semantic search",
+        "Knowledge discovery"
+      ],
+      "rating": 3,
+      "stars": 3427,
+      "forks": 262,
+      "openIssues": 23,
+      "lastUpdated": "2025-12-17",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 45
     },
     {
       "id": "e2b",
@@ -321,12 +688,28 @@
       "category": "code-execution",
       "author": "E2B",
       "authorUrl": "https://github.com/e2b-dev",
-      "githubUrl": "https://github.com/e2b-dev/mcp-server-e2b",
+      "githubUrl": "https://github.com/e2b-dev/mcp-server",
       "installCommand": "npx -y @e2b/mcp-server",
       "isOfficial": false,
-      "tags": ["sandbox", "code-execution", "cloud", "security"],
-      "bestFor": ["Code execution", "Sandboxed environments", "Safe testing"],
-      "rating": 5
+      "tags": [
+        "sandbox",
+        "code-execution",
+        "cloud",
+        "security"
+      ],
+      "bestFor": [
+        "Code execution",
+        "Sandboxed environments",
+        "Safe testing"
+      ],
+      "rating": 2,
+      "stars": 358,
+      "forks": 60,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-02",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "score": 38
     },
     {
       "id": "desktop-commander",
@@ -334,13 +717,29 @@
       "description": "Execute terminal commands and automate desktop tasks. Control system-level operations.",
       "category": "utilities",
       "author": "Desktop Commander",
-      "authorUrl": "https://github.com/desktopcommander",
+      "authorUrl": "https://github.com/wonderwhy-er",
       "githubUrl": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "installCommand": "npx -y @anthropic-ai/mcp-server-desktop-commander",
       "isOfficial": false,
-      "tags": ["terminal", "commands", "automation", "desktop"],
-      "bestFor": ["System automation", "Terminal control", "File operations"],
-      "rating": 4
+      "tags": [
+        "terminal",
+        "commands",
+        "automation",
+        "desktop"
+      ],
+      "bestFor": [
+        "System automation",
+        "Terminal control",
+        "File operations"
+      ],
+      "rating": 3,
+      "stars": 5111,
+      "forks": 566,
+      "openIssues": 72,
+      "lastUpdated": "2025-12-20",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 45
     },
     {
       "id": "notion",
@@ -352,9 +751,25 @@
       "githubUrl": "https://github.com/makenotion/notion-mcp-server",
       "installCommand": "npx -y @notionhq/mcp-server-notion",
       "isOfficial": true,
-      "tags": ["notion", "notes", "database", "workspace"],
-      "bestFor": ["Note-taking", "Database management", "Knowledge base"],
-      "rating": 4
+      "tags": [
+        "notion",
+        "notes",
+        "database",
+        "workspace"
+      ],
+      "bestFor": [
+        "Note-taking",
+        "Database management",
+        "Knowledge base"
+      ],
+      "rating": 3,
+      "stars": 3608,
+      "forks": 409,
+      "openIssues": 87,
+      "lastUpdated": "2025-12-07",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
     },
     {
       "id": "kubernetes",
@@ -366,9 +781,25 @@
       "githubUrl": "https://github.com/Flux159/mcp-server-kubernetes",
       "installCommand": "npx -y mcp-server-kubernetes",
       "isOfficial": false,
-      "tags": ["kubernetes", "k8s", "containers", "orchestration"],
-      "bestFor": ["Container management", "Deployment automation", "Cluster ops"],
-      "rating": 4
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "containers",
+        "orchestration"
+      ],
+      "bestFor": [
+        "Container management",
+        "Deployment automation",
+        "Cluster ops"
+      ],
+      "rating": 3,
+      "stars": 1223,
+      "forks": 204,
+      "openIssues": 11,
+      "lastUpdated": "2025-12-18",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 45
     },
     {
       "id": "aws",
@@ -380,9 +811,25 @@
       "githubUrl": "https://github.com/awslabs/mcp",
       "installCommand": "npx -y @aws/mcp-server",
       "isOfficial": true,
-      "tags": ["aws", "cloud", "infrastructure", "amazon"],
-      "bestFor": ["AWS management", "Cloud infrastructure", "DevOps"],
-      "rating": 4
+      "tags": [
+        "aws",
+        "cloud",
+        "infrastructure",
+        "amazon"
+      ],
+      "bestFor": [
+        "AWS management",
+        "Cloud infrastructure",
+        "DevOps"
+      ],
+      "rating": 3,
+      "stars": 7699,
+      "forks": 1167,
+      "openIssues": 211,
+      "lastUpdated": "2025-12-21",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 53
     },
     {
       "id": "browserbase",
@@ -394,23 +841,55 @@
       "githubUrl": "https://github.com/browserbase/mcp-server-browserbase",
       "installCommand": "npx -y @browserbase/mcp-server",
       "isOfficial": false,
-      "tags": ["browser", "cloud", "automation", "scraping"],
-      "bestFor": ["Cloud browser automation", "Scalable scraping", "Headless browsers"],
-      "rating": 4
+      "tags": [
+        "browser",
+        "cloud",
+        "automation",
+        "scraping"
+      ],
+      "bestFor": [
+        "Cloud browser automation",
+        "Scalable scraping",
+        "Headless browsers"
+      ],
+      "rating": 3,
+      "stars": 2955,
+      "forks": 324,
+      "openIssues": 24,
+      "lastUpdated": "2025-12-10",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 45
     },
     {
       "id": "context7",
       "name": "Context7",
       "description": "Up-to-date code documentation for LLMs. Access fresh documentation for any library.",
       "category": "ai-tools",
-      "author": "Context7",
-      "authorUrl": "https://github.com/context7",
-      "githubUrl": "https://github.com/context-7/context7-mcp",
+      "author": "Upstash",
+      "authorUrl": "https://github.com/upstash",
+      "githubUrl": "https://github.com/upstash/context7-mcp",
       "installCommand": "npx -y @context7/mcp-server",
       "isOfficial": false,
-      "tags": ["documentation", "libraries", "code", "reference"],
-      "bestFor": ["Library docs", "API reference", "Code examples"],
-      "rating": 5
+      "tags": [
+        "documentation",
+        "libraries",
+        "code",
+        "reference"
+      ],
+      "bestFor": [
+        "Library docs",
+        "API reference",
+        "Code examples"
+      ],
+      "rating": 3,
+      "stars": 39741,
+      "forks": 1970,
+      "openIssues": 96,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 45
     },
     {
       "id": "youtube-transcript",
@@ -422,9 +901,25 @@
       "githubUrl": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
       "installCommand": "npx -y @anthropic-ai/mcp-server-youtube-transcript",
       "isOfficial": false,
-      "tags": ["youtube", "transcript", "video", "subtitles"],
-      "bestFor": ["Video summarization", "Content extraction", "Research"],
-      "rating": 4
+      "tags": [
+        "youtube",
+        "transcript",
+        "video",
+        "subtitles"
+      ],
+      "bestFor": [
+        "Video summarization",
+        "Content extraction",
+        "Research"
+      ],
+      "rating": 2,
+      "stars": 357,
+      "forks": 66,
+      "openIssues": 6,
+      "lastUpdated": "2025-12-04",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 38
     },
     {
       "id": "blender",
@@ -436,79 +931,5647 @@
       "githubUrl": "https://github.com/ahujasid/blender-mcp",
       "installCommand": "pip install blender-mcp",
       "isOfficial": false,
-      "tags": ["blender", "3d", "modeling", "creative"],
-      "bestFor": ["3D modeling", "Animation", "Creative workflows"],
+      "tags": [
+        "blender",
+        "3d",
+        "modeling",
+        "creative"
+      ],
+      "bestFor": [
+        "3D modeling",
+        "Animation",
+        "Creative workflows"
+      ],
+      "rating": 3,
+      "stars": 14587,
+      "forks": 1403,
+      "openIssues": 34,
+      "lastUpdated": "2025-12-08",
+      "language": "Python",
+      "license": "MIT",
+      "score": 45
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "description": "Stripe payment processing integration. Manage payments, subscriptions, and invoices.",
+      "category": "productivity",
+      "author": "Stripe",
+      "authorUrl": "https://github.com/stripe",
+      "githubUrl": "https://github.com/stripe/agent-toolkit",
+      "installCommand": "npx -y @stripe/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "payments",
+        "stripe",
+        "billing",
+        "subscriptions"
+      ],
+      "bestFor": [
+        "Payment processing",
+        "Subscriptions",
+        "E-commerce"
+      ],
+      "rating": 3,
+      "stars": 1159,
+      "forks": 176,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "description": "PayPal payment processing integration. Handle transactions and payment workflows.",
+      "category": "productivity",
+      "author": "PayPal",
+      "authorUrl": "https://github.com/paypal",
+      "githubUrl": "https://github.com/paypal/agent-toolkit",
+      "installCommand": "npx -y @paypal/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "payments",
+        "paypal",
+        "transactions",
+        "billing"
+      ],
+      "bestFor": [
+        "Payment processing",
+        "International payments",
+        "E-commerce"
+      ],
+      "rating": 3,
+      "stars": 171,
+      "forks": 96,
+      "openIssues": 15,
+      "lastUpdated": "2025-11-21",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 40
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "description": "Access 4,000+ pre-built cloud tools for web scraping, automation, and data extraction.",
+      "category": "browser-automation",
+      "author": "Apify",
+      "authorUrl": "https://github.com/apify",
+      "githubUrl": "https://github.com/apify/actors-mcp-server",
+      "installCommand": "npx -y @apify/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "scraping",
+        "automation",
+        "cloud",
+        "actors"
+      ],
+      "bestFor": [
+        "Web scraping at scale",
+        "Data extraction",
+        "Workflow automation"
+      ],
+      "rating": 3,
+      "stars": 649,
+      "forks": 87,
+      "openIssues": 29,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 46
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "Text-to-speech and voice synthesis. Generate natural-sounding audio from text.",
+      "category": "media",
+      "author": "ElevenLabs",
+      "authorUrl": "https://github.com/elevenlabs",
+      "githubUrl": "https://github.com/elevenlabs/elevenlabs-mcp",
+      "installCommand": "npx -y @elevenlabs/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "tts",
+        "voice",
+        "audio",
+        "synthesis"
+      ],
+      "bestFor": [
+        "Voice generation",
+        "Audio content",
+        "Podcasts"
+      ],
+      "rating": 3,
+      "stars": 1105,
+      "forks": 187,
+      "openIssues": 8,
+      "lastUpdated": "2025-11-17",
+      "language": "Python",
+      "license": "MIT",
+      "score": 50
+    },
+    {
+      "id": "chroma",
+      "name": "Chroma",
+      "description": "Chroma vector database access. Store and query embeddings for AI applications.",
+      "category": "database",
+      "author": "Chroma",
+      "authorUrl": "https://github.com/chroma-core",
+      "githubUrl": "https://github.com/chroma-core/chroma-mcp",
+      "installCommand": "npx -y @chroma/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "vector",
+        "embeddings",
+        "database",
+        "search"
+      ],
+      "bestFor": [
+        "Semantic search",
+        "RAG applications",
+        "AI memory"
+      ],
+      "rating": 2,
+      "stars": 446,
+      "forks": 92,
+      "openIssues": 20,
+      "lastUpdated": "2025-09-17",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 39
+    },
+    {
+      "id": "qdrant",
+      "name": "Qdrant",
+      "description": "Qdrant vector database integration. High-performance similarity search for AI.",
+      "category": "database",
+      "author": "Qdrant",
+      "authorUrl": "https://github.com/qdrant",
+      "githubUrl": "https://github.com/qdrant/mcp-server-qdrant",
+      "installCommand": "npx -y @qdrant/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "vector",
+        "database",
+        "similarity",
+        "search"
+      ],
+      "bestFor": [
+        "Vector search",
+        "Recommendation systems",
+        "AI applications"
+      ],
+      "rating": 3,
+      "stars": 1136,
+      "forks": 211,
+      "openIssues": 33,
+      "lastUpdated": "2025-12-10",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 53
+    },
+    {
+      "id": "neo4j",
+      "name": "Neo4j",
+      "description": "Neo4j graph database queries and knowledge graphs. Model complex relationships.",
+      "category": "database",
+      "author": "Neo4j",
+      "authorUrl": "https://github.com/neo4j-contrib",
+      "githubUrl": "https://github.com/neo4j-contrib/mcp-neo4j",
+      "installCommand": "npx -y @neo4j/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "graph",
+        "database",
+        "knowledge-graph",
+        "cypher"
+      ],
+      "bestFor": [
+        "Knowledge graphs",
+        "Relationship modeling",
+        "Graph queries"
+      ],
+      "rating": 3,
+      "stars": 853,
+      "forks": 220,
+      "openIssues": 26,
+      "lastUpdated": "2025-12-16",
+      "language": "Python",
+      "license": "MIT",
+      "score": 46
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "description": "ClickHouse OLAP database integration. Fast analytical queries on large datasets.",
+      "category": "database",
+      "author": "ClickHouse",
+      "authorUrl": "https://github.com/ClickHouse",
+      "githubUrl": "https://github.com/ClickHouse/mcp-clickhouse",
+      "installCommand": "npx -y @clickhouse/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "olap",
+        "analytics",
+        "database",
+        "sql"
+      ],
+      "bestFor": [
+        "Analytics",
+        "Big data queries",
+        "Real-time analysis"
+      ],
+      "rating": 3,
+      "stars": 623,
+      "forks": 149,
+      "openIssues": 23,
+      "lastUpdated": "2025-12-16",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "description": "Snowflake data warehouse integration. Query and manage cloud data warehouse.",
+      "category": "database",
+      "author": "Snowflake Labs",
+      "authorUrl": "https://github.com/Snowflake-Labs",
+      "githubUrl": "https://github.com/Snowflake-Labs/mcp",
+      "installCommand": "npx -y @snowflake/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "warehouse",
+        "cloud",
+        "analytics",
+        "sql"
+      ],
+      "bestFor": [
+        "Data warehousing",
+        "Business intelligence",
+        "Analytics"
+      ],
+      "rating": 3,
+      "stars": 195,
+      "forks": 63,
+      "openIssues": 11,
+      "lastUpdated": "2025-12-19",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 43
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "description": "Neon serverless Postgres management. Scalable PostgreSQL with branching.",
+      "category": "database",
+      "author": "Neon",
+      "authorUrl": "https://github.com/neondatabase",
+      "githubUrl": "https://github.com/neondatabase/mcp-server-neon",
+      "installCommand": "npx -y @neon/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "postgres",
+        "serverless",
+        "database",
+        "branching"
+      ],
+      "bestFor": [
+        "Serverless databases",
+        "Development branches",
+        "PostgreSQL"
+      ],
+      "rating": 3,
+      "stars": 528,
+      "forks": 93,
+      "openIssues": 16,
+      "lastUpdated": "2025-12-17",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 46
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "description": "Prisma Postgres database management. Type-safe database access and migrations.",
+      "category": "database",
+      "author": "Prisma",
+      "authorUrl": "https://github.com/prisma",
+      "githubUrl": "https://github.com/prisma/mcp",
+      "installCommand": "npx -y @prisma/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "orm",
+        "database",
+        "typescript",
+        "migrations"
+      ],
+      "bestFor": [
+        "Type-safe queries",
+        "Database migrations",
+        "Schema management"
+      ],
+      "rating": 2,
+      "stars": 31,
+      "forks": 2,
+      "openIssues": 0,
+      "lastUpdated": "2025-10-07",
+      "language": "JavaScript",
+      "score": 38
+    },
+    {
+      "id": "weaviate",
+      "name": "Weaviate",
+      "description": "Weaviate vector database access. AI-native search and knowledge graphs.",
+      "category": "database",
+      "author": "Weaviate",
+      "authorUrl": "https://github.com/weaviate",
+      "githubUrl": "https://github.com/weaviate/mcp-server-weaviate",
+      "installCommand": "npx -y @weaviate/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "vector",
+        "database",
+        "search",
+        "ai"
+      ],
+      "bestFor": [
+        "AI applications",
+        "Semantic search",
+        "Knowledge management"
+      ],
+      "rating": 2,
+      "stars": 160,
+      "forks": 41,
+      "openIssues": 4,
+      "lastUpdated": "2025-05-22",
+      "language": "Go",
+      "score": 33
+    },
+    {
+      "id": "milvus",
+      "name": "Milvus",
+      "description": "Milvus/Zilliz vector database access. Scalable similarity search.",
+      "category": "database",
+      "author": "Zilliz",
+      "authorUrl": "https://github.com/zilliztech",
+      "githubUrl": "https://github.com/zilliztech/mcp-server-milvus",
+      "installCommand": "npx -y @zilliz/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "vector",
+        "database",
+        "similarity",
+        "scale"
+      ],
+      "bestFor": [
+        "Large-scale vector search",
+        "AI infrastructure",
+        "Embeddings"
+      ],
+      "rating": 3,
+      "stars": 206,
+      "forks": 61,
+      "openIssues": 17,
+      "lastUpdated": "2025-12-08",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "pinecone",
+      "name": "Pinecone",
+      "description": "Pinecone vector database integration. Managed vector search at scale.",
+      "category": "database",
+      "author": "sirmews",
+      "authorUrl": "https://github.com/sirmews",
+      "githubUrl": "https://github.com/sirmews/mcp-pinecone",
+      "installCommand": "npx -y @pinecone/mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "vector",
+        "database",
+        "managed",
+        "search"
+      ],
+      "bestFor": [
+        "Managed vector search",
+        "Production deployments",
+        "AI apps"
+      ],
+      "rating": 2,
+      "stars": 150,
+      "forks": 36,
+      "openIssues": 6,
+      "lastUpdated": "2025-01-31",
+      "language": "Python",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "description": "MongoDB database operations. Document database with rich queries.",
+      "category": "database",
+      "author": "furey",
+      "authorUrl": "https://github.com/furey",
+      "githubUrl": "https://github.com/furey/mongodb-lens",
+      "installCommand": "npx -y mongodb-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "mongodb",
+        "nosql",
+        "documents",
+        "database"
+      ],
+      "bestFor": [
+        "Document storage",
+        "Flexible schemas",
+        "NoSQL operations"
+      ],
+      "rating": 2,
+      "stars": 194,
+      "forks": 26,
+      "openIssues": 4,
+      "lastUpdated": "2025-04-23",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "dbt",
+      "name": "dbt",
+      "description": "dbt (data build tool) official MCP. Transform data in your warehouse.",
+      "category": "database",
+      "author": "dbt Labs",
+      "authorUrl": "https://github.com/dbt-labs",
+      "githubUrl": "https://github.com/dbt-labs/dbt-mcp",
+      "installCommand": "npx -y @dbt/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "dbt",
+        "analytics",
+        "transformation",
+        "warehouse"
+      ],
+      "bestFor": [
+        "Data transformation",
+        "Analytics engineering",
+        "Data modeling"
+      ],
+      "rating": 3,
+      "stars": 441,
+      "forks": 95,
+      "openIssues": 22,
+      "lastUpdated": "2025-12-19",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": "Discord integration with automation. Manage servers, channels, and messages.",
+      "category": "communication",
+      "author": "SaseQ",
+      "authorUrl": "https://github.com/SaseQ",
+      "githubUrl": "https://github.com/SaseQ/discord-mcp",
+      "installCommand": "npx -y discord-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "discord",
+        "chat",
+        "community",
+        "bots"
+      ],
+      "bestFor": [
+        "Community management",
+        "Bot automation",
+        "Gaming communities"
+      ],
+      "rating": 2,
+      "stars": 140,
+      "forks": 29,
+      "openIssues": 1,
+      "lastUpdated": "2025-08-11",
+      "language": "Java",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "description": "Telegram API integration for data access. Send messages and manage chats.",
+      "category": "communication",
+      "author": "chaindead",
+      "authorUrl": "https://github.com/chaindead",
+      "githubUrl": "https://github.com/chaindead/telegram-mcp",
+      "installCommand": "npx -y telegram-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "telegram",
+        "messaging",
+        "bots",
+        "chat"
+      ],
+      "bestFor": [
+        "Telegram bots",
+        "Message automation",
+        "Chat management"
+      ],
+      "rating": 2,
+      "stars": 254,
+      "forks": 29,
+      "openIssues": 7,
+      "lastUpdated": "2025-08-21",
+      "language": "Go",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "description": "WhatsApp messages and contact searching. Access chat history and contacts.",
+      "category": "communication",
+      "author": "lharries",
+      "authorUrl": "https://github.com/lharries",
+      "githubUrl": "https://github.com/lharries/whatsapp-mcp",
+      "installCommand": "npx -y whatsapp-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "whatsapp",
+        "messaging",
+        "contacts",
+        "chat"
+      ],
+      "bestFor": [
+        "WhatsApp integration",
+        "Contact search",
+        "Message history"
+      ],
+      "rating": 2,
+      "stars": 5148,
+      "forks": 815,
+      "openIssues": 88,
+      "lastUpdated": "2025-07-13",
+      "language": "Go",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "description": "LINE Official Account integration. Send messages and manage LINE business.",
+      "category": "communication",
+      "author": "LINE",
+      "authorUrl": "https://github.com/line",
+      "githubUrl": "https://github.com/line/line-bot-mcp-server",
+      "installCommand": "npx -y @line/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "line",
+        "messaging",
+        "business",
+        "japan"
+      ],
+      "bestFor": [
+        "LINE Business",
+        "Asian markets",
+        "Customer service"
+      ],
+      "rating": 3,
+      "stars": 503,
+      "forks": 87,
+      "openIssues": 18,
+      "lastUpdated": "2025-12-21",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "infobip",
+      "name": "Infobip",
+      "description": "Global cloud communication (SMS, RCS, WhatsApp, Viber). Multi-channel messaging.",
+      "category": "communication",
+      "author": "Infobip",
+      "authorUrl": "https://github.com/infobip",
+      "githubUrl": "https://github.com/infobip/mcp",
+      "installCommand": "npx -y @infobip/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "sms",
+        "whatsapp",
+        "viber",
+        "messaging"
+      ],
+      "bestFor": [
+        "Multi-channel messaging",
+        "SMS campaigns",
+        "Global reach"
+      ],
+      "rating": 3,
+      "stars": 22,
+      "forks": 2,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-12",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "discourse",
+      "name": "Discourse",
+      "description": "Discourse forum integration and management. Manage community forums.",
+      "category": "communication",
+      "author": "Discourse",
+      "authorUrl": "https://github.com/discourse",
+      "githubUrl": "https://github.com/discourse/discourse-mcp",
+      "installCommand": "npx -y @discourse/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "forum",
+        "community",
+        "discussion",
+        "discourse"
+      ],
+      "bestFor": [
+        "Forum management",
+        "Community building",
+        "Discussions"
+      ],
+      "rating": 3,
+      "stars": 29,
+      "forks": 16,
+      "openIssues": 2,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X",
+      "description": "Twitter search and timeline interaction. Browse tweets and user profiles.",
+      "category": "communication",
+      "author": "adhikasp",
+      "authorUrl": "https://github.com/adhikasp",
+      "githubUrl": "https://github.com/adhikasp/mcp-twikit",
+      "installCommand": "npx -y twitter-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "twitter",
+        "x",
+        "social",
+        "timeline"
+      ],
+      "bestFor": [
+        "Twitter research",
+        "Social monitoring",
+        "Tweet analysis"
+      ],
+      "rating": 2,
+      "stars": 217,
+      "forks": 28,
+      "openIssues": 7,
+      "lastUpdated": "2025-03-14",
+      "language": "Python",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "description": "Linear project management integration. Manage issues and projects.",
+      "category": "productivity",
+      "author": "Linear",
+      "authorUrl": "https://github.com/linear-app",
+      "githubUrl": "https://github.com/linearapp/linear-mcp-server",
+      "installCommand": "npx -y @linear/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "project",
+        "issues",
+        "linear",
+        "agile"
+      ],
+      "bestFor": [
+        "Issue tracking",
+        "Sprint planning",
+        "Team collaboration"
+      ],
+      "rating": 5
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "description": "Jira project management integration. Track issues and manage sprints.",
+      "category": "productivity",
+      "author": "raj-mehra",
+      "authorUrl": "https://github.com/raj-mehra",
+      "githubUrl": "https://github.com/raj-mehra/jira-mcp",
+      "installCommand": "npx -y jira-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "jira",
+        "issues",
+        "project",
+        "atlassian"
+      ],
+      "bestFor": [
+        "Enterprise projects",
+        "Issue tracking",
+        "Agile workflows"
+      ],
+      "rating": 2,
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "lastUpdated": "2025-04-28",
+      "language": "Python",
+      "license": "MIT",
+      "score": 21
+    },
+    {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "description": "Connect 2,500 APIs with 8,000+ prebuilt tools. Workflow automation platform.",
+      "category": "utilities",
+      "author": "PipedreamHQ",
+      "authorUrl": "https://github.com/PipedreamHQ",
+      "githubUrl": "https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol",
+      "installCommand": "npx -y @pipedream/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "integration",
+        "apis",
+        "workflow",
+        "automation"
+      ],
+      "bestFor": [
+        "API integrations",
+        "Workflow automation",
+        "Data pipelines"
+      ],
+      "rating": 3,
+      "stars": 10905,
+      "forks": 5551,
+      "openIssues": 4431,
+      "lastUpdated": "2025-12-19",
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "score": 53
+    },
+    {
+      "id": "mindsdb",
+      "name": "MindsDB",
+      "description": "Connect and unify data across platforms as single MCP server. AI database.",
+      "category": "database",
+      "author": "MindsDB",
+      "authorUrl": "https://github.com/mindsdb",
+      "githubUrl": "https://github.com/mindsdb/mindsdb",
+      "installCommand": "npx -y @mindsdb/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "ai",
+        "database",
+        "ml",
+        "federated"
+      ],
+      "bestFor": [
+        "AI databases",
+        "ML predictions",
+        "Data federation"
+      ],
+      "rating": 3,
+      "stars": 38100,
+      "forks": 6069,
+      "openIssues": 177,
+      "lastUpdated": "2025-12-20",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "score": 53
+    },
+    {
+      "id": "anyquery",
+      "name": "Anyquery",
+      "description": "Query 40+ apps with SQL. Supports PostgreSQL, MySQL, SQLite protocols.",
+      "category": "database",
+      "author": "julien040",
+      "authorUrl": "https://github.com/julien040",
+      "githubUrl": "https://github.com/julien040/anyquery",
+      "installCommand": "npx -y anyquery-mcp",
+      "isOfficial": false,
+      "tags": [
+        "sql",
+        "query",
+        "multi-database",
+        "federation"
+      ],
+      "bestFor": [
+        "Multi-source queries",
+        "Data exploration",
+        "SQL everywhere"
+      ],
+      "rating": 3,
+      "stars": 1564,
+      "forks": 96,
+      "openIssues": 6,
+      "lastUpdated": "2025-11-11",
+      "language": "Go",
+      "license": "NOASSERTION",
+      "score": 42
+    },
+    {
+      "id": "pulumi",
+      "name": "Pulumi",
+      "description": "Pulumi infrastructure operations via Automation API. Infrastructure as code.",
+      "category": "cloud-platforms",
+      "author": "Pulumi",
+      "authorUrl": "https://github.com/pulumi",
+      "githubUrl": "https://github.com/pulumi/mcp-server",
+      "installCommand": "npx -y @pulumi/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "iac",
+        "infrastructure",
+        "cloud",
+        "devops"
+      ],
+      "bestFor": [
+        "Infrastructure as code",
+        "Multi-cloud",
+        "DevOps automation"
+      ],
+      "rating": 5
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "description": "Terraform environment management and operations. Infrastructure automation.",
+      "category": "cloud-platforms",
+      "author": "nwiizo",
+      "authorUrl": "https://github.com/nwiizo",
+      "githubUrl": "https://github.com/nwiizo/tfmcp",
+      "installCommand": "npx -y terraform-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "terraform",
+        "iac",
+        "infrastructure",
+        "hashicorp"
+      ],
+      "bestFor": [
+        "Terraform workflows",
+        "Infrastructure automation",
+        "Cloud provisioning"
+      ],
+      "rating": 2,
+      "stars": 347,
+      "forks": 23,
+      "openIssues": 2,
+      "lastUpdated": "2025-11-25",
+      "language": "Rust",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "localstack",
+      "name": "LocalStack",
+      "description": "LocalStack local AWS environment management. Test AWS locally.",
+      "category": "cloud-platforms",
+      "author": "LocalStack",
+      "authorUrl": "https://github.com/localstack",
+      "githubUrl": "https://github.com/localstack/localstack-mcp-server",
+      "installCommand": "npx -y @localstack/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "aws",
+        "local",
+        "testing",
+        "development"
+      ],
+      "bestFor": [
+        "Local AWS testing",
+        "Development environments",
+        "Cost savings"
+      ],
+      "rating": 2,
+      "stars": 16,
+      "forks": 4,
+      "openIssues": 7,
+      "lastUpdated": "2025-10-03",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 38
+    },
+    {
+      "id": "portainer",
+      "name": "Portainer",
+      "description": "Portainer container management integration. Manage Docker environments.",
+      "category": "cloud-platforms",
+      "author": "Portainer",
+      "authorUrl": "https://github.com/portainer",
+      "githubUrl": "https://github.com/portainer/portainer-mcp",
+      "installCommand": "npx -y @portainer/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "docker",
+        "containers",
+        "management",
+        "ui"
+      ],
+      "bestFor": [
+        "Container management",
+        "Docker UI",
+        "DevOps"
+      ],
+      "rating": 2,
+      "stars": 95,
+      "forks": 20,
+      "openIssues": 10,
+      "lastUpdated": "2025-06-30",
+      "language": "Go",
+      "license": "Zlib",
+      "score": 36
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "description": "Containerized environments for isolated coding agents. Secure execution.",
+      "category": "code-execution",
+      "author": "Dagger",
+      "authorUrl": "https://github.com/dagger",
+      "githubUrl": "https://github.com/dagger/container-use",
+      "installCommand": "npx -y @dagger/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "container",
+        "sandbox",
+        "ci-cd",
+        "isolation"
+      ],
+      "bestFor": [
+        "Isolated execution",
+        "CI/CD pipelines",
+        "Secure coding"
+      ],
+      "rating": 3,
+      "stars": 3350,
+      "forks": 173,
+      "openIssues": 63,
+      "lastUpdated": "2025-12-08",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "score": 53
+    },
+    {
+      "id": "pydantic-run-python",
+      "name": "Pydantic Run Python",
+      "description": "Secure Python code execution sandbox. Run Python safely with validation.",
+      "category": "code-execution",
+      "author": "Pydantic",
+      "authorUrl": "https://github.com/pydantic",
+      "githubUrl": "https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python",
+      "installCommand": "pip install pydantic-ai-mcp-run-python",
+      "isOfficial": true,
+      "tags": [
+        "python",
+        "sandbox",
+        "execution",
+        "security"
+      ],
+      "bestFor": [
+        "Python execution",
+        "Code sandboxing",
+        "Safe evaluation"
+      ],
+      "rating": 3,
+      "stars": 13901,
+      "forks": 1493,
+      "openIssues": 402,
+      "lastUpdated": "2025-12-21",
+      "language": "Python",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "codemcp",
+      "name": "CodeMCP",
+      "description": "Coding agent with read, write, command tools. Full development workflow.",
+      "category": "code-execution",
+      "author": "ezyang",
+      "authorUrl": "https://github.com/ezyang",
+      "githubUrl": "https://github.com/ezyang/codemcp",
+      "installCommand": "npx -y codemcp",
+      "isOfficial": false,
+      "tags": [
+        "coding",
+        "agent",
+        "development",
+        "workflow"
+      ],
+      "bestFor": [
+        "Development workflows",
+        "Code editing",
+        "Project management"
+      ],
+      "rating": 2,
+      "stars": 1579,
+      "forks": 136,
+      "openIssues": 79,
+      "lastUpdated": "2025-06-04",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 35
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "description": "DaVinci Resolve video editing and color grading. Professional video editing.",
+      "category": "media",
+      "author": "samuelgursky",
+      "authorUrl": "https://github.com/samuelgursky",
+      "githubUrl": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "installCommand": "pip install davinci-resolve-mcp",
+      "isOfficial": false,
+      "tags": [
+        "video",
+        "editing",
+        "color",
+        "production"
+      ],
+      "bestFor": [
+        "Video editing",
+        "Color grading",
+        "Film production"
+      ],
+      "rating": 2,
+      "stars": 439,
+      "forks": 49,
+      "openIssues": 10,
+      "lastUpdated": "2025-10-20",
+      "language": "Python",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper DAW",
+      "description": "REAPER DAW control with 129 music production tools. Audio production.",
+      "category": "media",
+      "author": "TwelveTake-Studios",
+      "authorUrl": "https://github.com/TwelveTake-Studios",
+      "githubUrl": "https://github.com/TwelveTake-Studios/reaper-mcp",
+      "installCommand": "npx -y reaper-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "audio",
+        "daw",
+        "music",
+        "production"
+      ],
+      "bestFor": [
+        "Music production",
+        "Audio editing",
+        "Recording"
+      ],
+      "rating": 2,
+      "stars": 0,
+      "forks": 1,
+      "openIssues": 0,
+      "lastUpdated": "2025-12-14",
+      "language": "Lua",
+      "license": "MIT",
+      "score": 30
+    },
+    {
+      "id": "fal",
+      "name": "Fal.ai",
+      "description": "AI image, video, music generation using Fal.ai models. Generative AI.",
+      "category": "media",
+      "author": "raveenb",
+      "authorUrl": "https://github.com/raveenb",
+      "githubUrl": "https://github.com/raveenb/fal-mcp-server",
+      "installCommand": "npx -y fal-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "ai",
+        "image",
+        "video",
+        "generation"
+      ],
+      "bestFor": [
+        "AI art generation",
+        "Video creation",
+        "Music synthesis"
+      ],
+      "rating": 2,
+      "stars": 16,
+      "forks": 4,
+      "openIssues": 19,
+      "lastUpdated": "2025-12-21",
+      "language": "Python",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "svgmaker",
+      "name": "SVG Maker",
+      "description": "AI-driven SVG generation and editing. Create vector graphics with AI.",
+      "category": "media",
+      "author": "GenWaveLLC",
+      "authorUrl": "https://github.com/GenWaveLLC",
+      "githubUrl": "https://github.com/GenWaveLLC/svgmaker-mcp",
+      "installCommand": "npx -y svgmaker-mcp",
+      "isOfficial": false,
+      "tags": [
+        "svg",
+        "vector",
+        "graphics",
+        "ai"
+      ],
+      "bestFor": [
+        "SVG creation",
+        "Vector graphics",
+        "Icon generation"
+      ],
+      "rating": 2,
+      "stars": 20,
+      "forks": 3,
+      "openIssues": 0,
+      "lastUpdated": "2025-12-11",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "imagen",
+      "name": "Google Imagen",
+      "description": "Image generation using Google's Imagen 3.0 API. High-quality AI images.",
+      "category": "media",
+      "author": "hamflx",
+      "authorUrl": "https://github.com/hamflx",
+      "githubUrl": "https://github.com/hamflx/imagen3-mcp",
+      "installCommand": "npx -y imagen-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "image",
+        "ai",
+        "google",
+        "generation"
+      ],
+      "bestFor": [
+        "AI image generation",
+        "Creative content",
+        "Marketing assets"
+      ],
+      "rating": 2,
+      "stars": 49,
+      "forks": 9,
+      "openIssues": 5,
+      "lastUpdated": "2025-05-03",
+      "language": "Rust",
+      "score": 23
+    },
+    {
+      "id": "openai-image",
+      "name": "OpenAI GPT Image",
+      "description": "OpenAI GPT image generation and editing. DALL-E integration.",
+      "category": "media",
+      "author": "SureScaleAI",
+      "authorUrl": "https://github.com/SureScaleAI",
+      "githubUrl": "https://github.com/SureScaleAI/openai-gpt-image-mcp",
+      "installCommand": "npx -y openai-gpt-image-mcp",
+      "isOfficial": false,
+      "tags": [
+        "openai",
+        "dalle",
+        "image",
+        "generation"
+      ],
+      "bestFor": [
+        "DALL-E images",
+        "AI art",
+        "Image editing"
+      ],
+      "rating": 2,
+      "stars": 83,
+      "forks": 27,
+      "openIssues": 1,
+      "lastUpdated": "2025-05-31",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "mermaid",
+      "name": "Mermaid",
+      "description": "AI-powered Mermaid diagram generation with 22+ types. Create diagrams from text.",
+      "category": "utilities",
+      "author": "Narasimhaponnada",
+      "authorUrl": "https://github.com/Narasimhaponnada",
+      "githubUrl": "https://github.com/Narasimhaponnada/mermaid-mcp",
+      "installCommand": "npx -y mermaid-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "diagrams",
+        "mermaid",
+        "visualization",
+        "charts"
+      ],
+      "bestFor": [
+        "Diagram generation",
+        "Documentation",
+        "Flowcharts"
+      ],
+      "rating": 2,
+      "stars": 19,
+      "forks": 2,
+      "openIssues": 0,
+      "lastUpdated": "2025-11-05",
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "score": 30
+    },
+    {
+      "id": "echarts",
+      "name": "ECharts",
+      "description": "Apache ECharts dynamic visualization. Create interactive charts.",
+      "category": "utilities",
+      "author": "hustcc",
+      "authorUrl": "https://github.com/hustcc",
+      "githubUrl": "https://github.com/hustcc/mcp-echarts",
+      "installCommand": "npx -y mcp-echarts",
+      "isOfficial": false,
+      "tags": [
+        "charts",
+        "visualization",
+        "data",
+        "interactive"
+      ],
+      "bestFor": [
+        "Data visualization",
+        "Dashboards",
+        "Interactive charts"
+      ],
+      "rating": 2,
+      "stars": 176,
+      "forks": 31,
+      "openIssues": 6,
+      "lastUpdated": "2025-10-20",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 32
+    },
+    {
+      "id": "antv-chart",
+      "name": "AntV Chart",
+      "description": "Visual chart generation using AntV. Data visualization library.",
+      "category": "utilities",
+      "author": "antvis",
+      "authorUrl": "https://github.com/antvis",
+      "githubUrl": "https://github.com/antvis/mcp-server-chart",
+      "installCommand": "npx -y @antv/mcp-server-chart",
+      "isOfficial": true,
+      "tags": [
+        "charts",
+        "antv",
+        "visualization",
+        "data"
+      ],
+      "bestFor": [
+        "Chart creation",
+        "Data visualization",
+        "Reports"
+      ],
+      "rating": 3,
+      "stars": 3345,
+      "forks": 321,
+      "openIssues": 14,
+      "lastUpdated": "2025-12-18",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "description": "Tavily AI-powered search integration. Research-focused web search.",
+      "category": "search",
+      "author": "Tavily",
+      "authorUrl": "https://github.com/tavily-ai",
+      "githubUrl": "https://github.com/tavily-ai/tavily-mcp",
+      "installCommand": "npx -y @tavily/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "search",
+        "ai",
+        "research",
+        "web"
+      ],
+      "bestFor": [
+        "AI research",
+        "Fact-checking",
+        "Information gathering"
+      ],
+      "rating": 3,
+      "stars": 1015,
+      "forks": 167,
+      "openIssues": 0,
+      "lastUpdated": "2025-12-19",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "brightdata",
+      "name": "Bright Data",
+      "description": "Web scraping with Bright Data infrastructure. Enterprise scraping.",
+      "category": "browser-automation",
+      "author": "Bright Data",
+      "authorUrl": "https://github.com/brightdata",
+      "githubUrl": "https://github.com/brightdata/brightdata-mcp",
+      "installCommand": "npx -y @brightdata/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "scraping",
+        "proxy",
+        "enterprise",
+        "data"
+      ],
+      "bestFor": [
+        "Enterprise scraping",
+        "Data collection",
+        "Proxy rotation"
+      ],
+      "rating": 3,
+      "stars": 1766,
+      "forks": 230,
+      "openIssues": 14,
+      "lastUpdated": "2025-12-21",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "crawlbase",
+      "name": "Crawlbase",
+      "description": "Web crawling and data extraction. Scalable crawling infrastructure.",
+      "category": "browser-automation",
+      "author": "Crawlbase",
+      "authorUrl": "https://github.com/crawlbase",
+      "githubUrl": "https://github.com/crawlbase/crawlbase-mcp",
+      "installCommand": "npx -y @crawlbase/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "crawling",
+        "scraping",
+        "extraction",
+        "api"
+      ],
+      "bestFor": [
+        "Web crawling",
+        "Data extraction",
+        "SEO research"
+      ],
+      "rating": 3,
+      "stars": 40,
+      "forks": 12,
+      "openIssues": 0,
+      "lastUpdated": "2025-11-25",
+      "language": "JavaScript",
+      "score": 41
+    },
+    {
+      "id": "biomcp",
+      "name": "BioMCP",
+      "description": "Biomedical research with PubMed and ClinicalTrials.gov. Life sciences.",
+      "category": "search",
+      "author": "genomoncology",
+      "authorUrl": "https://github.com/genomoncology",
+      "githubUrl": "https://github.com/genomoncology/biomcp",
+      "installCommand": "pip install biomcp",
+      "isOfficial": false,
+      "tags": [
+        "biomedical",
+        "pubmed",
+        "research",
+        "science"
+      ],
+      "bestFor": [
+        "Medical research",
+        "Clinical trials",
+        "Life sciences"
+      ],
+      "rating": 2,
+      "stars": 376,
+      "forks": 70,
+      "openIssues": 13,
+      "lastUpdated": "2025-12-18",
+      "language": "Python",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "description": "Google Sheets automation with 25 tools. Spreadsheet operations.",
+      "category": "productivity",
+      "author": "henilcalagiya",
+      "authorUrl": "https://github.com/henilcalagiya",
+      "githubUrl": "https://github.com/henilcalagiya/google-sheets-mcp",
+      "installCommand": "npx -y google-sheets-mcp",
+      "isOfficial": false,
+      "tags": [
+        "sheets",
+        "spreadsheet",
+        "google",
+        "automation"
+      ],
+      "bestFor": [
+        "Spreadsheet automation",
+        "Data analysis",
+        "Reporting"
+      ],
+      "rating": 2,
+      "stars": 12,
+      "forks": 4,
+      "openIssues": 0,
+      "lastUpdated": "2025-09-11",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "score": 26
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "description": "Airtable database operations. Low-code database management.",
+      "category": "productivity",
+      "author": "domdomegg",
+      "authorUrl": "https://github.com/domdomegg",
+      "githubUrl": "https://github.com/domdomegg/airtable-mcp-server",
+      "installCommand": "npx -y airtable-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "airtable",
+        "database",
+        "lowcode",
+        "collaboration"
+      ],
+      "bestFor": [
+        "Low-code databases",
+        "Team collaboration",
+        "Project tracking"
+      ],
+      "rating": 2,
+      "stars": 371,
+      "forks": 125,
+      "openIssues": 8,
+      "lastUpdated": "2025-12-17",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "description": "Firebase Auth, Firestore, Storage. Google's app development platform.",
+      "category": "database",
+      "author": "gannonh",
+      "authorUrl": "https://github.com/gannonh",
+      "githubUrl": "https://github.com/gannonh/firebase-mcp",
+      "installCommand": "npx -y firebase-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "firebase",
+        "google",
+        "auth",
+        "storage"
+      ],
+      "bestFor": [
+        "Mobile apps",
+        "Authentication",
+        "Real-time data"
+      ],
+      "rating": 2,
+      "stars": 231,
+      "forks": 42,
+      "openIssues": 11,
+      "lastUpdated": "2025-10-27",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "convex",
+      "name": "Convex",
+      "description": "Convex database integration. Reactive backend platform.",
+      "category": "database",
+      "author": "Convex",
+      "authorUrl": "https://github.com/get-convex",
+      "githubUrl": "https://stack.convex.dev/convex-mcp-server",
+      "installCommand": "npx -y @convex/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "convex",
+        "backend",
+        "reactive",
+        "realtime"
+      ],
+      "bestFor": [
+        "Reactive backends",
+        "Real-time apps",
+        "Full-stack development"
+      ],
       "rating": 4
     },
     {
-      "id": "everart",
-      "name": "EverArt",
-      "description": "AI image generation using various models. Create images with different AI art styles.",
+      "id": "circleci",
+      "name": "CircleCI",
+      "description": "CircleCI CI/CD integration. Manage pipelines and builds.",
+      "category": "cloud-platforms",
+      "author": "CircleCI",
+      "authorUrl": "https://github.com/CircleCI-Public",
+      "githubUrl": "https://github.com/CircleCI-Public/mcp-server-circleci",
+      "installCommand": "npx -y @circleci/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "cicd",
+        "pipelines",
+        "builds",
+        "automation"
+      ],
+      "bestFor": [
+        "CI/CD pipelines",
+        "Build automation",
+        "DevOps"
+      ],
+      "rating": 3,
+      "stars": 74,
+      "forks": 40,
+      "openIssues": 20,
+      "lastUpdated": "2025-10-01",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "score": 40
+    },
+    {
+      "id": "buildkite",
+      "name": "Buildkite",
+      "description": "Buildkite CI/CD server integration. Pipeline management.",
+      "category": "cloud-platforms",
+      "author": "Buildkite",
+      "authorUrl": "https://github.com/buildkite",
+      "githubUrl": "https://github.com/buildkite/buildkite-mcp-server",
+      "installCommand": "npx -y @buildkite/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "cicd",
+        "pipelines",
+        "builds",
+        "buildkite"
+      ],
+      "bestFor": [
+        "CI/CD management",
+        "Build pipelines",
+        "DevOps workflows"
+      ],
+      "rating": 3,
+      "stars": 42,
+      "forks": 22,
+      "openIssues": 10,
+      "lastUpdated": "2025-12-19",
+      "language": "Go",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "azure-devops",
+      "name": "Azure DevOps",
+      "description": "Azure DevOps integration. Manage repos, pipelines, and work items.",
+      "category": "cloud-platforms",
+      "author": "Microsoft",
+      "authorUrl": "https://github.com/microsoft",
+      "githubUrl": "https://github.com/microsoft/azure-devops-mcp",
+      "installCommand": "npx -y @azure/devops-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "azure",
+        "devops",
+        "microsoft",
+        "cicd"
+      ],
+      "bestFor": [
+        "Azure workflows",
+        "Enterprise DevOps",
+        "Microsoft stack"
+      ],
+      "rating": 3,
+      "stars": 1100,
+      "forks": 354,
+      "openIssues": 10,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "axiom",
+      "name": "Axiom",
+      "description": "Axiom log management integration. Query and analyze logs.",
+      "category": "utilities",
+      "author": "Axiom",
+      "authorUrl": "https://github.com/axiomhq",
+      "githubUrl": "https://github.com/axiomhq/mcp-server-axiom",
+      "installCommand": "npx -y @axiom/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "logs",
+        "observability",
+        "monitoring",
+        "analytics"
+      ],
+      "bestFor": [
+        "Log analysis",
+        "Observability",
+        "Debugging"
+      ],
+      "rating": 3,
+      "stars": 58,
+      "forks": 12,
+      "openIssues": 5,
+      "lastUpdated": "2025-11-20",
+      "language": "Go",
+      "license": "MIT",
+      "score": 40
+    },
+    {
+      "id": "opik",
+      "name": "Opik",
+      "description": "Comet Opik ML observability. Track and debug ML experiments.",
+      "category": "ai-tools",
+      "author": "comet-ml",
+      "authorUrl": "https://github.com/comet-ml",
+      "githubUrl": "https://github.com/comet-ml/opik-mcp",
+      "installCommand": "npx -y @comet/opik-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "ml",
+        "observability",
+        "experiments",
+        "tracking"
+      ],
+      "bestFor": [
+        "ML experiments",
+        "Model tracking",
+        "AI debugging"
+      ],
+      "rating": 3,
+      "stars": 192,
+      "forks": 30,
+      "openIssues": 1,
+      "lastUpdated": "2025-11-13",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 40
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "description": "Continue IDE integration. AI code assistant for VS Code.",
+      "category": "ai-tools",
+      "author": "Continue",
+      "authorUrl": "https://github.com/continuedev",
+      "githubUrl": "https://github.com/continuedev/continue",
+      "installCommand": "npx -y @continue/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "ide",
+        "vscode",
+        "coding",
+        "assistant"
+      ],
+      "bestFor": [
+        "Code assistance",
+        "IDE integration",
+        "Developer productivity"
+      ],
+      "rating": 3,
+      "stars": 30436,
+      "forks": 3931,
+      "openIssues": 705,
+      "lastUpdated": "2025-12-21",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 53
+    },
+    {
+      "id": "anilist",
+      "name": "AniList",
+      "description": "AniList API integration for anime and manga. Track and discover content.",
       "category": "media",
-      "author": "EverArt",
-      "authorUrl": "https://github.com/everart-ai",
-      "githubUrl": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart",
-      "installCommand": "npx -y @modelcontextprotocol/server-everart",
+      "author": "yuna0x0",
+      "authorUrl": "https://github.com/yuna0x0",
+      "githubUrl": "https://github.com/yuna0x0/anilist-mcp",
+      "installCommand": "npx -y anilist-mcp-server",
       "isOfficial": false,
-      "tags": ["ai", "image", "generation", "art"],
-      "bestFor": ["Image creation", "AI art", "Visual content"],
-      "rating": 4
+      "tags": [
+        "anime",
+        "manga",
+        "tracking",
+        "discovery"
+      ],
+      "bestFor": [
+        "Anime tracking",
+        "Manga discovery",
+        "Media recommendations"
+      ],
+      "rating": 2,
+      "stars": 63,
+      "forks": 11,
+      "openIssues": 0,
+      "lastUpdated": "2025-11-28",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "discogs",
+      "name": "Discogs",
+      "description": "Discogs API interaction for music data. Music database access.",
+      "category": "media",
+      "author": "cswkim",
+      "authorUrl": "https://github.com/cswkim",
+      "githubUrl": "https://github.com/cswkim/discogs-mcp-server",
+      "installCommand": "npx -y discogs-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "music",
+        "discogs",
+        "vinyl",
+        "database"
+      ],
+      "bestFor": [
+        "Music discovery",
+        "Vinyl collection",
+        "Artist research"
+      ],
+      "rating": 2,
+      "stars": 76,
+      "forks": 9,
+      "openIssues": 2,
+      "lastUpdated": "2025-12-15",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "video-editing",
+      "name": "Video Editing",
+      "description": "Video analysis, search, and generation from collections.",
+      "category": "media",
+      "author": "burningion",
+      "authorUrl": "https://github.com/burningion",
+      "githubUrl": "https://github.com/burningion/video-editing-mcp",
+      "installCommand": "pip install video-editing-mcp",
+      "isOfficial": false,
+      "tags": [
+        "video",
+        "editing",
+        "analysis",
+        "search"
+      ],
+      "bestFor": [
+        "Video analysis",
+        "Content search",
+        "Video generation"
+      ],
+      "rating": 2,
+      "stars": 233,
+      "forks": 31,
+      "openIssues": 5,
+      "lastUpdated": "2025-10-09",
+      "language": "Python",
+      "score": 35
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "description": "Resend email sending integration. Modern email API for developers.",
+      "category": "communication",
+      "author": "Resend",
+      "authorUrl": "https://github.com/resend",
+      "githubUrl": "https://github.com/resend/mcp-send-email",
+      "installCommand": "npx -y @resend/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "email",
+        "api",
+        "transactional",
+        "developers"
+      ],
+      "bestFor": [
+        "Transactional email",
+        "Developer-first email",
+        "Email automation"
+      ],
+      "rating": 3,
+      "stars": 418,
+      "forks": 60,
+      "openIssues": 15,
+      "lastUpdated": "2025-10-16",
+      "language": "TypeScript",
+      "score": 43
+    },
+    {
+      "id": "courier",
+      "name": "Courier",
+      "description": "Multi-channel notifications and message automation. Unified messaging.",
+      "category": "communication",
+      "author": "Courier",
+      "authorUrl": "https://github.com/trycourier",
+      "githubUrl": "https://github.com/trycourier/courier-mcp",
+      "installCommand": "npx -y @courier/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "notifications",
+        "multichannel",
+        "messaging",
+        "automation"
+      ],
+      "bestFor": [
+        "Notification systems",
+        "Multi-channel messaging",
+        "User engagement"
+      ],
+      "rating": 2,
+      "stars": 0,
+      "forks": 2,
+      "openIssues": 1,
+      "lastUpdated": "2025-10-09",
+      "language": "TypeScript",
+      "score": 35
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "description": "Google Calendar integration. Manage events and schedules.",
+      "category": "productivity",
+      "author": "zcaceres",
+      "authorUrl": "https://github.com/zcaceres",
+      "githubUrl": "https://github.com/zcaceres/gtasks-mcp",
+      "installCommand": "npx -y google-calendar-mcp",
+      "isOfficial": false,
+      "tags": [
+        "calendar",
+        "google",
+        "scheduling",
+        "events"
+      ],
+      "bestFor": [
+        "Calendar management",
+        "Event scheduling",
+        "Time management"
+      ],
+      "rating": 2,
+      "stars": 96,
+      "forks": 34,
+      "openIssues": 15,
+      "lastUpdated": "2025-02-02",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "google-tasks",
+      "name": "Google Tasks",
+      "description": "Google Tasks API interface. Manage to-do lists and tasks.",
+      "category": "productivity",
+      "author": "arpitbatra123",
+      "authorUrl": "https://github.com/arpitbatra123",
+      "githubUrl": "https://github.com/arpitbatra123/mcp-googletasks",
+      "installCommand": "npx -y google-tasks-mcp",
+      "isOfficial": false,
+      "tags": [
+        "tasks",
+        "google",
+        "todo",
+        "productivity"
+      ],
+      "bestFor": [
+        "Task management",
+        "To-do lists",
+        "Personal productivity"
+      ],
+      "rating": 2,
+      "stars": 27,
+      "forks": 14,
+      "openIssues": 0,
+      "lastUpdated": "2025-10-13",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 30
+    },
+    {
+      "id": "apple-reminders",
+      "name": "Apple Reminders",
+      "description": "Apple Reminders interaction on macOS. Native reminders integration.",
+      "category": "productivity",
+      "author": "FradSer",
+      "authorUrl": "https://github.com/FradSer",
+      "githubUrl": "https://github.com/FradSer/mcp-server-apple-reminders",
+      "installCommand": "npx -y apple-reminders-mcp",
+      "isOfficial": false,
+      "tags": [
+        "apple",
+        "reminders",
+        "macos",
+        "native"
+      ],
+      "bestFor": [
+        "macOS integration",
+        "Native reminders",
+        "Apple ecosystem"
+      ],
+      "rating": 2,
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 8,
+      "lastUpdated": "2025-12-21",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 30
+    },
+    {
+      "id": "apple-shortcuts",
+      "name": "Apple Shortcuts",
+      "description": "Apple Shortcuts integration. Run and manage shortcuts.",
+      "category": "utilities",
+      "author": "recursechat",
+      "authorUrl": "https://github.com/recursechat",
+      "githubUrl": "https://github.com/recursechat/mcp-server-apple-shortcuts",
+      "installCommand": "npx -y apple-shortcuts-mcp",
+      "isOfficial": false,
+      "tags": [
+        "apple",
+        "shortcuts",
+        "automation",
+        "macos"
+      ],
+      "bestFor": [
+        "macOS automation",
+        "Shortcuts integration",
+        "Apple workflows"
+      ],
+      "rating": 2,
+      "stars": 260,
+      "forks": 31,
+      "openIssues": 4,
+      "lastUpdated": "2024-12-22",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "score": 23
+    },
+    {
+      "id": "imessage",
+      "name": "iMessage",
+      "description": "iMessage database access and analysis. Read macOS messages.",
+      "category": "communication",
+      "author": "carterlasalle",
+      "authorUrl": "https://github.com/carterlasalle",
+      "githubUrl": "https://github.com/carterlasalle/mac_messages_mcp",
+      "installCommand": "npx -y imessage-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "imessage",
+        "macos",
+        "messages",
+        "analysis"
+      ],
+      "bestFor": [
+        "Message history",
+        "Chat analysis",
+        "macOS integration"
+      ],
+      "rating": 2,
+      "stars": 195,
+      "forks": 23,
+      "openIssues": 7,
+      "lastUpdated": "2025-09-09",
+      "language": "Python",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "1mcp-agent",
+      "name": "1MCP Agent",
+      "description": "Unified MCP server aggregating multiple MCP servers. Meta-server.",
+      "category": "utilities",
+      "author": "1mcp",
+      "authorUrl": "https://github.com/1mcp-app",
+      "githubUrl": "https://github.com/1mcp-app/agent",
+      "installCommand": "npx -y @1mcp/agent",
+      "isOfficial": false,
+      "tags": [
+        "aggregator",
+        "meta",
+        "unified",
+        "proxy"
+      ],
+      "bestFor": [
+        "Server aggregation",
+        "Unified access",
+        "MCP management"
+      ],
+      "rating": 2,
+      "stars": 317,
+      "forks": 39,
+      "openIssues": 10,
+      "lastUpdated": "2025-12-21",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 38
+    },
+    {
+      "id": "roundtable",
+      "name": "Roundtable",
+      "description": "Meta-MCP unifying multiple AI coding assistants with auto-discovery.",
+      "category": "ai-tools",
+      "author": "askbudi",
+      "authorUrl": "https://github.com/askbudi",
+      "githubUrl": "https://github.com/askbudi/roundtable",
+      "installCommand": "npx -y @askbudi/roundtable",
+      "isOfficial": false,
+      "tags": [
+        "meta",
+        "ai",
+        "assistants",
+        "discovery"
+      ],
+      "bestFor": [
+        "Multi-AI integration",
+        "Assistant coordination",
+        "Tool discovery"
+      ],
+      "rating": 2,
+      "stars": 45,
+      "forks": 8,
+      "openIssues": 3,
+      "lastUpdated": "2025-10-06",
+      "language": "Python",
+      "score": 30
+    },
+    {
+      "id": "mcp-jungle",
+      "name": "MCP Jungle",
+      "description": "Self-hosted MCP Server registry for enterprise AI Agents.",
+      "category": "utilities",
+      "author": "duaraghav8",
+      "authorUrl": "https://github.com/duaraghav8",
+      "githubUrl": "https://github.com/duaraghav8/MCPJungle",
+      "installCommand": "npx -y mcp-jungle",
+      "isOfficial": false,
+      "tags": [
+        "registry",
+        "enterprise",
+        "self-hosted",
+        "discovery"
+      ],
+      "bestFor": [
+        "Enterprise deployments",
+        "Server registry",
+        "Self-hosting"
+      ],
+      "rating": 2,
+      "stars": 745,
+      "forks": 94,
+      "openIssues": 48,
+      "lastUpdated": "2025-12-11",
+      "language": "Go",
+      "license": "MPL-2.0",
+      "score": 38
+    },
+    {
+      "id": "edgeone",
+      "name": "EdgeOne Pages",
+      "description": "Tencent EdgeOne Pages MCP. Edge deployment platform.",
+      "category": "cloud-platforms",
+      "author": "TencentEdgeOne",
+      "authorUrl": "https://github.com/TencentEdgeOne",
+      "githubUrl": "https://github.com/TencentEdgeOne/edgeone-pages-mcp",
+      "installCommand": "npx -y @tencent/edgeone-mcp",
+      "isOfficial": true,
+      "tags": [
+        "edge",
+        "tencent",
+        "cdn",
+        "deployment"
+      ],
+      "bestFor": [
+        "Edge deployment",
+        "CDN management",
+        "Global distribution"
+      ],
+      "rating": 3,
+      "stars": 339,
+      "forks": 49,
+      "openIssues": 9,
+      "lastUpdated": "2025-10-27",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 43
+    },
+    {
+      "id": "gcore",
+      "name": "G-Core",
+      "description": "G-Core edge and cloud platform. CDN and cloud services.",
+      "category": "cloud-platforms",
+      "author": "G-Core",
+      "authorUrl": "https://github.com/G-Core",
+      "githubUrl": "https://github.com/G-Core/gcore-mcp-server",
+      "installCommand": "npx -y @gcore/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "cdn",
+        "cloud",
+        "edge",
+        "streaming"
+      ],
+      "bestFor": [
+        "CDN services",
+        "Edge computing",
+        "Media streaming"
+      ],
+      "rating": 2,
+      "stars": 4,
+      "forks": 1,
+      "openIssues": 1,
+      "lastUpdated": "2025-11-05",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 36
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "Vercel AI SDK MCP adapter. Deploy to Vercel platform.",
+      "category": "cloud-platforms",
+      "author": "Vercel",
+      "authorUrl": "https://github.com/vercel",
+      "githubUrl": "https://github.com/vercel/mcp-adapter-vercel-ai-sdk",
+      "installCommand": "npx -y @vercel/mcp-adapter",
+      "isOfficial": true,
+      "tags": [
+        "vercel",
+        "deployment",
+        "ai-sdk",
+        "serverless"
+      ],
+      "bestFor": [
+        "Vercel deployment",
+        "AI SDK integration",
+        "Serverless"
+      ],
+      "rating": 5
+    },
+    {
+      "id": "cloud-run",
+      "name": "Google Cloud Run",
+      "description": "Google Cloud Run integration. Serverless container platform.",
+      "category": "cloud-platforms",
+      "author": "Google Cloud Platform",
+      "authorUrl": "https://github.com/GoogleCloudPlatform",
+      "githubUrl": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+      "installCommand": "npx -y @google-cloud/run-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "gcp",
+        "cloud-run",
+        "serverless",
+        "containers"
+      ],
+      "bestFor": [
+        "Serverless containers",
+        "GCP deployment",
+        "Container management"
+      ],
+      "rating": 3,
+      "stars": 491,
+      "forks": 78,
+      "openIssues": 31,
+      "lastUpdated": "2025-12-11",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "flyonui",
+      "name": "FlyonUI",
+      "description": "FlyonUI component library MCP. Tailwind CSS components.",
+      "category": "utilities",
+      "author": "themeselection",
+      "authorUrl": "https://github.com/themeselection",
+      "githubUrl": "https://github.com/themeselection/flyonui-mcp",
+      "installCommand": "npx -y flyonui-mcp",
+      "isOfficial": true,
+      "tags": [
+        "ui",
+        "tailwind",
+        "components",
+        "design"
+      ],
+      "bestFor": [
+        "UI development",
+        "Tailwind components",
+        "Design systems"
+      ],
+      "rating": 2,
+      "stars": 23,
+      "forks": 8,
+      "openIssues": 2,
+      "lastUpdated": "2025-11-12",
+      "language": "JavaScript",
+      "score": 38
+    },
+    {
+      "id": "gluestack-ui",
+      "name": "Gluestack UI",
+      "description": "Gluestack UI component library. Cross-platform UI components.",
+      "category": "utilities",
+      "author": "gauravsaini",
+      "authorUrl": "https://github.com/gauravsaini",
+      "githubUrl": "https://github.com/gauravsaini/gluestack-ui-mcp-server",
+      "installCommand": "npx -y gluestack-ui-mcp",
+      "isOfficial": false,
+      "tags": [
+        "ui",
+        "components",
+        "cross-platform",
+        "react"
+      ],
+      "bestFor": [
+        "Cross-platform UI",
+        "React Native",
+        "Component libraries"
+      ],
+      "rating": 2,
+      "stars": 2,
+      "forks": 1,
+      "openIssues": 0,
+      "lastUpdated": "2025-08-29",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 24
     },
     {
       "id": "kaggle",
       "name": "Kaggle",
-      "description": "Access datasets, models, competitions, and benchmarks. Tap into Kaggle's ML resources.",
+      "description": "Access datasets, models, competitions, and benchmarks. ML resources.",
       "category": "ai-tools",
       "author": "Kaggle",
       "authorUrl": "https://github.com/Kaggle",
       "githubUrl": "https://github.com/Kaggle/kaggle-mcp",
       "installCommand": "npx -y @kaggle/mcp-server",
       "isOfficial": true,
-      "tags": ["kaggle", "datasets", "ml", "competition"],
-      "bestFor": ["Data science", "ML datasets", "Competitions"],
+      "tags": [
+        "kaggle",
+        "datasets",
+        "ml",
+        "competition"
+      ],
+      "bestFor": [
+        "Data science",
+        "ML datasets",
+        "Competitions"
+      ],
       "rating": 4
     },
     {
-      "id": "mcp-advisor",
-      "name": "MCP Advisor",
-      "description": "Discovery and recommendation service for MCP servers. Find the right servers using natural language.",
+      "id": "apple-health",
+      "name": "Apple Health",
+      "description": "Apple Health data access with analytics. Health and fitness data.",
       "category": "utilities",
-      "author": "MCP Community",
-      "authorUrl": "https://github.com/mcp-community",
-      "githubUrl": "https://github.com/mcp-community/mcp-advisor",
-      "installCommand": "npx -y mcp-advisor",
+      "author": "the-momentum",
+      "authorUrl": "https://github.com/the-momentum",
+      "githubUrl": "https://github.com/the-momentum/apple-health-mcp-server",
+      "installCommand": "npx -y apple-health-mcp",
       "isOfficial": false,
-      "tags": ["discovery", "recommendation", "meta", "search"],
-      "bestFor": ["Finding MCP servers", "Recommendations", "Discovery"],
-      "rating": 3
+      "tags": [
+        "health",
+        "fitness",
+        "apple",
+        "analytics"
+      ],
+      "bestFor": [
+        "Health tracking",
+        "Fitness data",
+        "Wellness analytics"
+      ],
+      "rating": 2,
+      "stars": 85,
+      "forks": 10,
+      "openIssues": 7,
+      "lastUpdated": "2025-10-22",
+      "language": "Python",
+      "license": "MIT",
+      "score": 32
     },
     {
-      "id": "minimax",
-      "name": "MiniMax",
-      "description": "Text-to-speech, image, and video generation APIs. Create multimedia content with AI.",
-      "category": "media",
-      "author": "MiniMax",
-      "authorUrl": "https://github.com/minimax-ai",
-      "githubUrl": "https://github.com/MiniMax-AI/mcp-server",
-      "installCommand": "npx -y @minimax/mcp-server",
+      "id": "fhir",
+      "name": "FHIR",
+      "description": "Fast Healthcare Interoperability Resources integration. Healthcare data standard.",
+      "category": "utilities",
+      "author": "wso2",
+      "authorUrl": "https://github.com/wso2",
+      "githubUrl": "https://github.com/wso2/fhir-mcp-server",
+      "installCommand": "npx -y @wso2/fhir-mcp-server",
       "isOfficial": true,
-      "tags": ["tts", "image", "video", "generation"],
-      "bestFor": ["Voice synthesis", "Video creation", "Multimedia"],
+      "tags": [
+        "healthcare",
+        "fhir",
+        "medical",
+        "interoperability"
+      ],
+      "bestFor": [
+        "Healthcare integration",
+        "Medical records",
+        "Clinical data"
+      ],
+      "rating": 3,
+      "stars": 68,
+      "forks": 27,
+      "openIssues": 1,
+      "lastUpdated": "2025-12-11",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 43
+    },
+    {
+      "id": "ssh",
+      "name": "SSH",
+      "description": "SSH control for Linux and Windows servers. Remote server access.",
+      "category": "utilities",
+      "author": "blakerouse",
+      "authorUrl": "https://github.com/blakerouse",
+      "githubUrl": "https://github.com/blakerouse/ssh-mcp",
+      "installCommand": "npx -y ssh-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "ssh",
+        "remote",
+        "servers",
+        "terminal"
+      ],
+      "bestFor": [
+        "Remote access",
+        "Server management",
+        "DevOps"
+      ],
+      "rating": 2,
+      "stars": 4,
+      "forks": 1,
+      "openIssues": 4,
+      "lastUpdated": "2025-12-15",
+      "language": "Go",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "iterm",
+      "name": "iTerm",
+      "description": "iTerm terminal access and command execution. macOS terminal integration.",
+      "category": "utilities",
+      "author": "ferrislucas",
+      "authorUrl": "https://github.com/ferrislucas",
+      "githubUrl": "https://github.com/ferrislucas/iterm-mcp",
+      "installCommand": "npx -y iterm-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "iterm",
+        "terminal",
+        "macos",
+        "cli"
+      ],
+      "bestFor": [
+        "iTerm integration",
+        "Terminal automation",
+        "macOS workflows"
+      ],
+      "rating": 2,
+      "stars": 502,
+      "forks": 58,
+      "openIssues": 13,
+      "lastUpdated": "2025-09-20",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "shell-commands",
+      "name": "Shell Commands",
+      "description": "Run commands and scripts via MCP. General shell execution.",
+      "category": "utilities",
+      "author": "g0t4",
+      "authorUrl": "https://github.com/g0t4",
+      "githubUrl": "https://github.com/g0t4/mcp-server-commands",
+      "installCommand": "npx -y mcp-server-commands",
+      "isOfficial": false,
+      "tags": [
+        "shell",
+        "commands",
+        "scripts",
+        "execution"
+      ],
+      "bestFor": [
+        "Script execution",
+        "Command automation",
+        "System tasks"
+      ],
+      "rating": 2,
+      "stars": 217,
+      "forks": 33,
+      "openIssues": 6,
+      "lastUpdated": "2025-09-29",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "secure-shell",
+      "name": "Secure Shell",
+      "description": "Secure shell command execution via Docker. Isolated execution.",
+      "category": "utilities",
+      "author": "sonirico",
+      "authorUrl": "https://github.com/sonirico",
+      "githubUrl": "https://github.com/sonirico/mcp-shell",
+      "installCommand": "npx -y mcp-secure-shell",
+      "isOfficial": false,
+      "tags": [
+        "shell",
+        "docker",
+        "security",
+        "isolation"
+      ],
+      "bestFor": [
+        "Secure execution",
+        "Docker isolation",
+        "Safe commands"
+      ],
+      "rating": 2,
+      "stars": 50,
+      "forks": 9,
+      "openIssues": 4,
+      "lastUpdated": "2025-09-17",
+      "language": "Go",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "cli-automation",
+      "name": "CLI Automation",
+      "description": "CLI with secure execution and policies. Terminal automation.",
+      "category": "utilities",
+      "author": "MladenSU",
+      "authorUrl": "https://github.com/MladenSU",
+      "githubUrl": "https://github.com/MladenSU/cli-mcp-server",
+      "installCommand": "npx -y cli-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "cli",
+        "automation",
+        "policies",
+        "security"
+      ],
+      "bestFor": [
+        "CLI automation",
+        "Policy enforcement",
+        "Secure execution"
+      ],
+      "rating": 2,
+      "stars": 155,
+      "forks": 30,
+      "openIssues": 7,
+      "lastUpdated": "2025-07-04",
+      "language": "Python",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "ntfy",
+      "name": "Ntfy",
+      "description": "Ntfy phone notifications. Push notifications to devices.",
+      "category": "communication",
+      "author": "teddyzxcv",
+      "authorUrl": "https://github.com/teddyzxcv",
+      "githubUrl": "https://github.com/teddyzxcv/ntfy-mcp",
+      "installCommand": "npx -y ntfy-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "notifications",
+        "push",
+        "mobile",
+        "alerts"
+      ],
+      "bestFor": [
+        "Push notifications",
+        "Mobile alerts",
+        "Event notifications"
+      ],
+      "rating": 2,
+      "stars": 43,
+      "forks": 5,
+      "openIssues": 2,
+      "lastUpdated": "2025-03-25",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "score": 23
+    },
+    {
+      "id": "desktop-notifications",
+      "name": "Desktop Notifications",
+      "description": "Desktop notifications with sound effects. System notifications.",
+      "category": "utilities",
+      "author": "Cactusinhand",
+      "authorUrl": "https://github.com/Cactusinhand",
+      "githubUrl": "https://github.com/Cactusinhand/mcp_server_notify",
+      "installCommand": "npx -y desktop-notify-mcp",
+      "isOfficial": false,
+      "tags": [
+        "notifications",
+        "desktop",
+        "sounds",
+        "alerts"
+      ],
+      "bestFor": [
+        "Desktop alerts",
+        "System notifications",
+        "Audio feedback"
+      ],
+      "rating": 2,
+      "stars": 42,
+      "forks": 9,
+      "openIssues": 1,
+      "lastUpdated": "2025-08-18",
+      "language": "Python",
+      "license": "MIT",
+      "score": 26
+    },
+    {
+      "id": "web-search",
+      "name": "Web Search",
+      "description": "Free web searching via Google results. Basic web search.",
+      "category": "search",
+      "author": "pskill9",
+      "authorUrl": "https://github.com/pskill9",
+      "githubUrl": "https://github.com/pskill9/web-search",
+      "installCommand": "npx -y web-search-mcp",
+      "isOfficial": false,
+      "tags": [
+        "search",
+        "web",
+        "google",
+        "free"
+      ],
+      "bestFor": [
+        "Basic web search",
+        "Free search",
+        "Quick lookups"
+      ],
+      "rating": 2,
+      "stars": 373,
+      "forks": 148,
+      "openIssues": 7,
+      "lastUpdated": "2024-12-30",
+      "language": "JavaScript",
+      "score": 28
+    },
+    {
+      "id": "fetchserp",
+      "name": "FetchSERP",
+      "description": "FetchSERP SEO and search data. Search engine data extraction.",
+      "category": "search",
+      "author": "fetchSERP",
+      "authorUrl": "https://github.com/fetchSERP",
+      "githubUrl": "https://github.com/fetchSERP/fetchserp-mcp-server-node",
+      "installCommand": "npx -y @fetchserp/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "seo",
+        "serp",
+        "search",
+        "rankings"
+      ],
+      "bestFor": [
+        "SEO research",
+        "SERP analysis",
+        "Ranking data"
+      ],
       "rating": 4
     },
     {
-      "id": "anki",
-      "name": "Anki",
-      "description": "Interact with spaced repetition flashcard application. Create and manage flashcards for learning.",
-      "category": "productivity",
-      "author": "Anki Community",
-      "authorUrl": "https://github.com/anki-community",
-      "githubUrl": "https://github.com/sarahec/anki-mcp-server",
-      "installCommand": "npx -y anki-mcp-server",
+      "id": "globalping",
+      "name": "Globalping",
+      "description": "Network diagnostics from global locations. Ping from anywhere.",
+      "category": "utilities",
+      "author": "jsDelivr",
+      "authorUrl": "https://github.com/jsdelivr",
+      "githubUrl": "https://github.com/jsdelivr/globalping-mcp-server",
+      "installCommand": "npx -y @jsdelivr/globalping-mcp",
+      "isOfficial": true,
+      "tags": [
+        "network",
+        "ping",
+        "diagnostics",
+        "global"
+      ],
+      "bestFor": [
+        "Network testing",
+        "Global diagnostics",
+        "Latency checks"
+      ],
+      "rating": 3,
+      "stars": 36,
+      "forks": 6,
+      "openIssues": 3,
+      "lastUpdated": "2025-11-29",
+      "language": "TypeScript",
+      "score": 41
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Docker operations and container management. Control containers and compose stacks.",
+      "category": "cloud-platforms",
+      "author": "QuantGeekDev",
+      "authorUrl": "https://github.com/QuantGeekDev",
+      "githubUrl": "https://github.com/QuantGeekDev/docker-mcp",
+      "installCommand": "npx -y docker-mcp",
       "isOfficial": false,
-      "tags": ["anki", "flashcards", "learning", "spaced-repetition"],
-      "bestFor": ["Language learning", "Study", "Memory training"],
+      "tags": [
+        "docker",
+        "containers",
+        "compose",
+        "devops"
+      ],
+      "bestFor": [
+        "Container management",
+        "Docker compose",
+        "DevOps workflows"
+      ],
+      "rating": 2,
+      "stars": 437,
+      "forks": 57,
+      "openIssues": 9,
+      "lastUpdated": "2024-12-14",
+      "language": "Python",
+      "license": "MIT",
+      "score": 23
+    },
+    {
+      "id": "microsandbox",
+      "name": "Microsandbox",
+      "description": "Self-hosted secure code execution platform. Safe AI code interpreter.",
+      "category": "code-execution",
+      "author": "Microsandbox",
+      "authorUrl": "https://github.com/microsandbox",
+      "githubUrl": "https://github.com/microsandbox/microsandbox",
+      "installCommand": "npx -y @microsandbox/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "sandbox",
+        "code-execution",
+        "security",
+        "self-hosted"
+      ],
+      "bestFor": [
+        "Secure code execution",
+        "AI code interpreter",
+        "Data analysis"
+      ],
+      "rating": 3,
+      "stars": 4216,
+      "forks": 187,
+      "openIssues": 55,
+      "lastUpdated": "2025-11-21",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "score": 50
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "description": "Box cloud storage integration. Access and manage Box content seamlessly.",
+      "category": "productivity",
+      "author": "Box",
+      "authorUrl": "https://github.com/box",
+      "githubUrl": "https://developer.box.com/guides/box-mcp/",
+      "installCommand": "npx -y @box/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "box",
+        "cloud",
+        "storage",
+        "enterprise"
+      ],
+      "bestFor": [
+        "Enterprise storage",
+        "Content management",
+        "Collaboration"
+      ],
       "rating": 4
+    },
+    {
+      "id": "videodb",
+      "name": "VideoDB",
+      "description": "Serverless video database with AI tagging. Store, index, and search videos.",
+      "category": "media",
+      "author": "VideoDB",
+      "authorUrl": "https://github.com/video-db",
+      "githubUrl": "https://github.com/video-db/agent-toolkit",
+      "installCommand": "npx -y @videodb/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "video",
+        "database",
+        "ai",
+        "search"
+      ],
+      "bestFor": [
+        "Video management",
+        "AI video tagging",
+        "Video search"
+      ],
+      "rating": 2,
+      "stars": 44,
+      "forks": 9,
+      "openIssues": 3,
+      "lastUpdated": "2025-07-17",
+      "language": "Python",
+      "score": 34
+    },
+    {
+      "id": "ms365",
+      "name": "Microsoft 365",
+      "description": "Connect to Microsoft 365 suite via Graph API. Mail, files, Excel, calendar.",
+      "category": "productivity",
+      "author": "Softeria",
+      "authorUrl": "https://github.com/softeria",
+      "githubUrl": "https://github.com/softeria/ms-365-mcp-server",
+      "installCommand": "npx -y ms-365-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "microsoft",
+        "office",
+        "outlook",
+        "excel"
+      ],
+      "bestFor": [
+        "Office integration",
+        "Email automation",
+        "Calendar management"
+      ],
+      "rating": 2,
+      "stars": 371,
+      "forks": 129,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-20",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "duckdb",
+      "name": "DuckDB",
+      "description": "DuckDB embedded analytics database. Fast OLAP queries on local data.",
+      "category": "database",
+      "author": "ktanaka101",
+      "authorUrl": "https://github.com/ktanaka101",
+      "githubUrl": "https://github.com/ktanaka101/mcp-server-duckdb",
+      "installCommand": "npx -y mcp-server-duckdb",
+      "isOfficial": false,
+      "tags": [
+        "duckdb",
+        "analytics",
+        "olap",
+        "embedded"
+      ],
+      "bestFor": [
+        "Local analytics",
+        "Parquet files",
+        "Data analysis"
+      ],
+      "rating": 2,
+      "stars": 173,
+      "forks": 22,
+      "openIssues": 3,
+      "lastUpdated": "2025-05-05",
+      "language": "Python",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "excel",
+      "name": "Excel",
+      "description": "Excel workbook manipulation. Read, write, format, charts, and pivot tables.",
+      "category": "productivity",
+      "author": "haris-musa",
+      "authorUrl": "https://github.com/haris-musa",
+      "githubUrl": "https://github.com/haris-musa/excel-mcp-server",
+      "installCommand": "npx -y excel-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "charts",
+        "data"
+      ],
+      "bestFor": [
+        "Spreadsheet automation",
+        "Data processing",
+        "Report generation"
+      ],
+      "rating": 2,
+      "stars": 3011,
+      "forks": 340,
+      "openIssues": 37,
+      "lastUpdated": "2025-08-11",
+      "language": "Python",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "bigquery",
+      "name": "BigQuery",
+      "description": "Google BigQuery integration. Query and analyze large datasets.",
+      "category": "database",
+      "author": "LucasHild",
+      "authorUrl": "https://github.com/LucasHild",
+      "githubUrl": "https://github.com/LucasHild/mcp-server-bigquery",
+      "installCommand": "npx -y mcp-server-bigquery",
+      "isOfficial": false,
+      "tags": [
+        "bigquery",
+        "google",
+        "analytics",
+        "sql"
+      ],
+      "bestFor": [
+        "Big data analysis",
+        "Data warehousing",
+        "Business intelligence"
+      ],
+      "rating": 2,
+      "stars": 120,
+      "forks": 33,
+      "openIssues": 4,
+      "lastUpdated": "2025-05-30",
+      "language": "Python",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "description": "MySQL database integration. Configurable access controls and schema inspection.",
+      "category": "database",
+      "author": "designcomputer",
+      "authorUrl": "https://github.com/designcomputer",
+      "githubUrl": "https://github.com/designcomputer/mysql_mcp_server",
+      "installCommand": "npx -y mysql-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "mysql",
+        "database",
+        "sql",
+        "query"
+      ],
+      "bestFor": [
+        "MySQL databases",
+        "Web applications",
+        "Data management"
+      ],
+      "rating": 2,
+      "stars": 1034,
+      "forks": 209,
+      "openIssues": 51,
+      "lastUpdated": "2025-06-05",
+      "language": "Python",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "tidb",
+      "name": "TiDB",
+      "description": "TiDB serverless database integration. Distributed SQL database.",
+      "category": "database",
+      "author": "c4pt0r",
+      "authorUrl": "https://github.com/c4pt0r",
+      "githubUrl": "https://github.com/c4pt0r/mcp-server-tidb",
+      "installCommand": "npx -y mcp-server-tidb",
+      "isOfficial": false,
+      "tags": [
+        "tidb",
+        "distributed",
+        "sql",
+        "serverless"
+      ],
+      "bestFor": [
+        "Distributed databases",
+        "High availability",
+        "Scalable SQL"
+      ],
+      "rating": 2,
+      "stars": 22,
+      "forks": 6,
+      "openIssues": 3,
+      "lastUpdated": "2025-04-15",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 23
+    },
+    {
+      "id": "couchbase",
+      "name": "Couchbase",
+      "description": "Couchbase cluster interaction with natural language querying.",
+      "category": "database",
+      "author": "Couchbase",
+      "authorUrl": "https://github.com/Couchbase-Ecosystem",
+      "githubUrl": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+      "installCommand": "npx -y @couchbase/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "couchbase",
+        "nosql",
+        "document",
+        "query"
+      ],
+      "bestFor": [
+        "NoSQL operations",
+        "Mobile sync",
+        "Document storage"
+      ],
+      "rating": 3,
+      "stars": 25,
+      "forks": 28,
+      "openIssues": 1,
+      "lastUpdated": "2025-12-11",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 41
+    },
+    {
+      "id": "nocodb",
+      "name": "NocoDB",
+      "description": "NocoDB open-source Airtable alternative. Spreadsheet database interface.",
+      "category": "database",
+      "author": "edwinbernadus",
+      "authorUrl": "https://github.com/edwinbernadus",
+      "githubUrl": "https://github.com/edwinbernadus/nocodb-mcp-server",
+      "installCommand": "npx -y nocodb-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "nocodb",
+        "spreadsheet",
+        "database",
+        "opensource"
+      ],
+      "bestFor": [
+        "Airtable alternative",
+        "No-code databases",
+        "Team collaboration"
+      ],
+      "rating": 2,
+      "stars": 55,
+      "forks": 22,
+      "openIssues": 0,
+      "lastUpdated": "2025-08-22",
+      "language": "JavaScript",
+      "score": 28
+    },
+    {
+      "id": "slack-advanced",
+      "name": "Slack Advanced",
+      "description": "Most powerful Slack MCP with SSE transport and proxy support.",
+      "category": "communication",
+      "author": "korotovsky",
+      "authorUrl": "https://github.com/korotovsky",
+      "githubUrl": "https://github.com/korotovsky/slack-mcp-server",
+      "installCommand": "npx -y slack-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "slack",
+        "sse",
+        "proxy",
+        "enterprise"
+      ],
+      "bestFor": [
+        "Enterprise Slack",
+        "SSE transport",
+        "Proxy support"
+      ],
+      "rating": 3,
+      "stars": 1020,
+      "forks": 160,
+      "openIssues": 28,
+      "lastUpdated": "2025-12-09",
+      "language": "Go",
+      "license": "MIT",
+      "score": 45
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "description": "Comprehensive Confluence and Jira integration. Documentation and issue tracking.",
+      "category": "productivity",
+      "author": "sooperset",
+      "authorUrl": "https://github.com/sooperset",
+      "githubUrl": "https://github.com/sooperset/mcp-atlassian",
+      "installCommand": "npx -y mcp-atlassian",
+      "isOfficial": false,
+      "tags": [
+        "atlassian",
+        "jira",
+        "confluence",
+        "issues"
+      ],
+      "bestFor": [
+        "Enterprise workflow",
+        "Documentation",
+        "Issue tracking"
+      ],
+      "rating": 3,
+      "stars": 3833,
+      "forks": 812,
+      "openIssues": 170,
+      "lastUpdated": "2025-11-26",
+      "language": "Python",
+      "license": "MIT",
+      "score": 45
+    },
+    {
+      "id": "carbon-voice",
+      "name": "Carbon Voice",
+      "description": "Voice messages and conversations in Carbon Voice app.",
+      "category": "communication",
+      "author": "PhononX",
+      "authorUrl": "https://github.com/PhononX",
+      "githubUrl": "https://github.com/PhononX/cv-mcp-server",
+      "installCommand": "npx -y @carbonvoice/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "voice",
+        "messages",
+        "audio",
+        "conversations"
+      ],
+      "bestFor": [
+        "Voice messages",
+        "Audio communication",
+        "Voice memos"
+      ],
+      "rating": 2,
+      "stars": 4,
+      "forks": 4,
+      "openIssues": 0,
+      "lastUpdated": "2025-10-10",
+      "language": "TypeScript",
+      "score": 36
+    },
+    {
+      "id": "metoro",
+      "name": "Metoro",
+      "description": "Query and interact with Kubernetes environments monitored by Metoro.",
+      "category": "cloud-platforms",
+      "author": "Metoro",
+      "authorUrl": "https://github.com/metoro-io",
+      "githubUrl": "https://github.com/metoro-io/metoro-mcp-server",
+      "installCommand": "npx -y @metoro/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "kubernetes",
+        "monitoring",
+        "observability",
+        "metrics"
+      ],
+      "bestFor": [
+        "K8s monitoring",
+        "Container observability",
+        "Cluster health"
+      ],
+      "rating": 3,
+      "stars": 45,
+      "forks": 12,
+      "openIssues": 3,
+      "lastUpdated": "2025-12-12",
+      "language": "Go",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "raygun",
+      "name": "Raygun",
+      "description": "Raygun API integration for crash reporting and real user monitoring.",
+      "category": "utilities",
+      "author": "MindscapeHQ",
+      "authorUrl": "https://github.com/MindscapeHQ",
+      "githubUrl": "https://github.com/MindscapeHQ/mcp-server-raygun",
+      "installCommand": "npx -y mcp-server-raygun",
+      "isOfficial": true,
+      "tags": [
+        "crash",
+        "monitoring",
+        "rum",
+        "errors"
+      ],
+      "bestFor": [
+        "Crash reporting",
+        "User monitoring",
+        "Error tracking"
+      ],
+      "rating": 3,
+      "stars": 19,
+      "forks": 13,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-05",
+      "score": 41
+    },
+    {
+      "id": "signoz",
+      "name": "Signoz",
+      "description": "Open-source observability platform integration. Traces, metrics, logs.",
+      "category": "utilities",
+      "author": "Dr. Droid",
+      "authorUrl": "https://github.com/DrDroidLab",
+      "githubUrl": "https://github.com/DrDroidLab/signoz-mcp-server",
+      "installCommand": "npx -y signoz-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "signoz",
+        "observability",
+        "traces",
+        "logs"
+      ],
+      "bestFor": [
+        "APM",
+        "Distributed tracing",
+        "Open-source observability"
+      ],
+      "rating": 2,
+      "stars": 11,
+      "forks": 2,
+      "openIssues": 0,
+      "lastUpdated": "2025-07-24",
+      "language": "Python",
+      "license": "MIT",
+      "score": 26
+    },
+    {
+      "id": "victoriametrics",
+      "name": "VictoriaMetrics",
+      "description": "VictoriaMetrics monitoring integration. Time series database.",
+      "category": "utilities",
+      "author": "VictoriaMetrics",
+      "authorUrl": "https://github.com/VictoriaMetrics-Community",
+      "githubUrl": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+      "installCommand": "npx -y victoriametrics-mcp",
+      "isOfficial": true,
+      "tags": [
+        "metrics",
+        "timeseries",
+        "prometheus",
+        "monitoring"
+      ],
+      "bestFor": [
+        "Metrics storage",
+        "Prometheus alternative",
+        "Time series"
+      ],
+      "rating": 3,
+      "stars": 104,
+      "forks": 13,
+      "openIssues": 2,
+      "lastUpdated": "2025-12-19",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "score": 43
+    },
+    {
+      "id": "kagi",
+      "name": "Kagi Search",
+      "description": "Kagi Search API integration. Premium ad-free search.",
+      "category": "search",
+      "author": "ac3xx",
+      "authorUrl": "https://github.com/ac3xx",
+      "githubUrl": "https://github.com/ac3xx/mcp-servers-kagi",
+      "installCommand": "npx -y mcp-servers-kagi",
+      "isOfficial": false,
+      "tags": [
+        "kagi",
+        "search",
+        "premium",
+        "privacy"
+      ],
+      "bestFor": [
+        "Premium search",
+        "Ad-free results",
+        "Quality search"
+      ],
+      "rating": 1,
+      "stars": 41,
+      "forks": 11,
+      "openIssues": 6,
+      "lastUpdated": "2024-12-13",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 18
+    },
+    {
+      "id": "nytimes",
+      "name": "NYTimes",
+      "description": "Search articles using the New York Times API.",
+      "category": "search",
+      "author": "angheljf",
+      "authorUrl": "https://github.com/angheljf",
+      "githubUrl": "https://github.com/angheljf/nyt",
+      "installCommand": "npx -y nyt-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "news",
+        "nytimes",
+        "articles",
+        "journalism"
+      ],
+      "bestFor": [
+        "News research",
+        "Article search",
+        "Current events"
+      ],
+      "rating": 2,
+      "stars": 16,
+      "forks": 9,
+      "openIssues": 2,
+      "lastUpdated": "2025-01-27",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 21
+    },
+    {
+      "id": "google-news",
+      "name": "Google News",
+      "description": "Google News search with categorization and multi-language support.",
+      "category": "search",
+      "author": "ChanMeng666",
+      "authorUrl": "https://github.com/ChanMeng666",
+      "githubUrl": "https://github.com/ChanMeng666/server-google-news",
+      "installCommand": "npx -y server-google-news",
+      "isOfficial": false,
+      "tags": [
+        "news",
+        "google",
+        "multilingual",
+        "categories"
+      ],
+      "bestFor": [
+        "News aggregation",
+        "Multi-language news",
+        "Topic research"
+      ],
+      "rating": 2,
+      "stars": 96,
+      "forks": 20,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-10",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "arxiv",
+      "name": "ArXiv",
+      "description": "Search ArXiv research papers. Academic paper discovery.",
+      "category": "search",
+      "author": "blazickjp",
+      "authorUrl": "https://github.com/blazickjp",
+      "githubUrl": "https://github.com/blazickjp/arxiv-mcp-server",
+      "installCommand": "npx -y arxiv-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "arxiv",
+        "research",
+        "papers",
+        "academic"
+      ],
+      "bestFor": [
+        "Academic research",
+        "Paper discovery",
+        "Scientific literature"
+      ],
+      "rating": 2,
+      "stars": 1965,
+      "forks": 151,
+      "openIssues": 31,
+      "lastUpdated": "2025-08-19",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 38
+    },
+    {
+      "id": "paperswithcode",
+      "name": "Papers With Code",
+      "description": "Search papers, conferences, and codebases via PapersWithCode API.",
+      "category": "search",
+      "author": "hbg",
+      "authorUrl": "https://github.com/hbg",
+      "githubUrl": "https://github.com/hbg/mcp-paperswithcode",
+      "installCommand": "npx -y mcp-paperswithcode",
+      "isOfficial": false,
+      "tags": [
+        "papers",
+        "code",
+        "ml",
+        "research"
+      ],
+      "bestFor": [
+        "ML research",
+        "Paper-code linking",
+        "SOTA tracking"
+      ],
+      "rating": 2,
+      "stars": 15,
+      "forks": 7,
+      "openIssues": 3,
+      "lastUpdated": "2025-06-07",
+      "language": "Python",
+      "license": "MIT",
+      "score": 23
+    },
+    {
+      "id": "searxng",
+      "name": "SearXNG",
+      "description": "Self-hosted metasearch engine integration. Privacy-focused search.",
+      "category": "search",
+      "author": "Ihor-Sokoliuk",
+      "authorUrl": "https://github.com/ihor-sokoliuk",
+      "githubUrl": "https://github.com/ihor-sokoliuk/mcp-searxng",
+      "installCommand": "npx -y mcp-searxng",
+      "isOfficial": false,
+      "tags": [
+        "searxng",
+        "metasearch",
+        "privacy",
+        "self-hosted"
+      ],
+      "bestFor": [
+        "Privacy search",
+        "Self-hosted search",
+        "Meta search"
+      ],
+      "rating": 2,
+      "stars": 367,
+      "forks": 63,
+      "openIssues": 14,
+      "lastUpdated": "2025-11-09",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "skyvern",
+      "name": "Skyvern",
+      "description": "Let AI control your browser for web automation and scraping.",
+      "category": "browser-automation",
+      "author": "Skyvern AI",
+      "authorUrl": "https://github.com/Skyvern-AI",
+      "githubUrl": "https://github.com/Skyvern-AI/skyvern",
+      "installCommand": "pip install skyvern",
+      "isOfficial": true,
+      "tags": [
+        "browser",
+        "ai",
+        "automation",
+        "scraping"
+      ],
+      "bestFor": [
+        "AI browser control",
+        "Visual automation",
+        "Smart scraping"
+      ],
+      "rating": 3,
+      "stars": 19854,
+      "forks": 1736,
+      "openIssues": 142,
+      "lastUpdated": "2025-12-21",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "score": 53
+    },
+    {
+      "id": "webcrawl",
+      "name": "Web Crawl",
+      "description": "Advanced search and retrieval for web crawler data. WARC support.",
+      "category": "browser-automation",
+      "author": "Pragmar",
+      "authorUrl": "https://github.com/pragmar",
+      "githubUrl": "https://github.com/pragmar/mcp-server-webcrawl",
+      "installCommand": "npx -y mcp-server-webcrawl",
+      "isOfficial": false,
+      "tags": [
+        "crawler",
+        "warc",
+        "wget",
+        "archive"
+      ],
+      "bestFor": [
+        "Web archiving",
+        "Crawler data",
+        "WARC processing"
+      ],
+      "rating": 2,
+      "stars": 34,
+      "forks": 11,
+      "openIssues": 0,
+      "lastUpdated": "2025-12-08",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "score": 33
+    },
+    {
+      "id": "campertunity",
+      "name": "Campertunity",
+      "description": "Search campgrounds worldwide. Availability and booking links.",
+      "category": "utilities",
+      "author": "Campertunity",
+      "authorUrl": "https://github.com/campertunity",
+      "githubUrl": "https://github.com/campertunity/mcp-server",
+      "installCommand": "npx -y @campertunity/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "camping",
+        "travel",
+        "outdoors",
+        "booking"
+      ],
+      "bestFor": [
+        "Camping search",
+        "Travel planning",
+        "Outdoor adventures"
+      ],
+      "rating": 2,
+      "stars": 11,
+      "forks": 4,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-19",
+      "language": "TypeScript",
+      "score": 31
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "description": "Google Maps integration. Location services, routing, place details.",
+      "category": "utilities",
+      "author": "Anthropic",
+      "authorUrl": "https://github.com/modelcontextprotocol",
+      "githubUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+      "installCommand": "npx -y @modelcontextprotocol/server-google-maps",
+      "isOfficial": true,
+      "tags": [
+        "maps",
+        "location",
+        "routing",
+        "places"
+      ],
+      "bestFor": [
+        "Location services",
+        "Route planning",
+        "Place search"
+      ],
+      "rating": 3,
+      "stars": 74779,
+      "forks": 9081,
+      "openIssues": 242,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 53
+    },
+    {
+      "id": "iplocate",
+      "name": "IPLocate",
+      "description": "IP geolocation, network info, proxy detection.",
+      "category": "utilities",
+      "author": "IPLocate",
+      "authorUrl": "https://github.com/iplocate",
+      "githubUrl": "https://github.com/iplocate/mcp-server-iplocate",
+      "installCommand": "npx -y @iplocate/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "ip",
+        "geolocation",
+        "proxy",
+        "network"
+      ],
+      "bestFor": [
+        "IP lookup",
+        "Geolocation",
+        "Fraud detection"
+      ],
+      "rating": 2,
+      "stars": 13,
+      "forks": 6,
+      "openIssues": 1,
+      "lastUpdated": "2025-06-29",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 34
+    },
+    {
+      "id": "qgis",
+      "name": "QGIS",
+      "description": "QGIS Desktop integration. AI-assisted GIS project management.",
+      "category": "utilities",
+      "author": "jjsantos01",
+      "authorUrl": "https://github.com/jjsantos01",
+      "githubUrl": "https://github.com/jjsantos01/qgis_mcp",
+      "installCommand": "pip install qgis-mcp",
+      "isOfficial": false,
+      "tags": [
+        "gis",
+        "maps",
+        "spatial",
+        "qgis"
+      ],
+      "bestFor": [
+        "GIS analysis",
+        "Map creation",
+        "Spatial data"
+      ],
+      "rating": 2,
+      "stars": 729,
+      "forks": 106,
+      "openIssues": 7,
+      "lastUpdated": "2025-10-01",
+      "language": "Python",
+      "score": 35
+    },
+    {
+      "id": "fathom-analytics",
+      "name": "Fathom Analytics",
+      "description": "Privacy-focused web analytics. Access site data and reports.",
+      "category": "utilities",
+      "author": "mackenly",
+      "authorUrl": "https://github.com/mackenly",
+      "githubUrl": "https://github.com/mackenly/mcp-fathom-analytics",
+      "installCommand": "npx -y mcp-fathom-analytics",
+      "isOfficial": false,
+      "tags": [
+        "analytics",
+        "privacy",
+        "fathom",
+        "tracking"
+      ],
+      "bestFor": [
+        "Privacy analytics",
+        "Website tracking",
+        "GDPR compliance"
+      ],
+      "rating": 2,
+      "stars": 2,
+      "forks": 5,
+      "openIssues": 0,
+      "lastUpdated": "2025-06-17",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 21
+    },
+    {
+      "id": "facebook-ads",
+      "name": "Facebook Ads",
+      "description": "Facebook Ads API integration. Campaign management and analytics.",
+      "category": "productivity",
+      "author": "GoMarble AI",
+      "authorUrl": "https://github.com/gomarble-ai",
+      "githubUrl": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
+      "installCommand": "npx -y facebook-ads-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "facebook",
+        "ads",
+        "marketing",
+        "campaigns"
+      ],
+      "bestFor": [
+        "Ad management",
+        "Campaign analytics",
+        "Marketing automation"
+      ],
+      "rating": 2,
+      "stars": 201,
+      "forks": 50,
+      "openIssues": 1,
+      "lastUpdated": "2025-08-21",
+      "language": "Python",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "description": "Google Ads API integration. Campaign management and data access.",
+      "category": "productivity",
+      "author": "GoMarble AI",
+      "authorUrl": "https://github.com/gomarble-ai",
+      "githubUrl": "https://github.com/gomarble-ai/google-ads-mcp-server",
+      "installCommand": "npx -y google-ads-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "google",
+        "ads",
+        "ppc",
+        "marketing"
+      ],
+      "bestFor": [
+        "PPC management",
+        "Ad optimization",
+        "Campaign reporting"
+      ],
+      "rating": 2,
+      "stars": 84,
+      "forks": 30,
+      "openIssues": 3,
+      "lastUpdated": "2025-12-17",
+      "language": "Python",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "apple-books",
+      "name": "Apple Books",
+      "description": "Transform Apple Books to queryable knowledge base.",
+      "category": "productivity",
+      "author": "vgnshiyer",
+      "authorUrl": "https://github.com/vgnshiyer",
+      "githubUrl": "https://github.com/vgnshiyer/apple-books-mcp",
+      "installCommand": "npx -y apple-books-mcp",
+      "isOfficial": false,
+      "tags": [
+        "books",
+        "apple",
+        "reading",
+        "knowledge"
+      ],
+      "bestFor": [
+        "Book notes",
+        "Reading highlights",
+        "Knowledge management"
+      ],
+      "rating": 2,
+      "stars": 35,
+      "forks": 7,
+      "openIssues": 0,
+      "lastUpdated": "2025-05-12",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 21
+    },
+    {
+      "id": "ebook-mcp",
+      "name": "eBook MCP",
+      "description": "Read and interact with PDF and EPUB ebooks locally.",
+      "category": "productivity",
+      "author": "onebirdrocks",
+      "authorUrl": "https://github.com/onebirdrocks",
+      "githubUrl": "https://github.com/onebirdrocks/ebook-mcp",
+      "installCommand": "npx -y ebook-mcp",
+      "isOfficial": false,
+      "tags": [
+        "ebook",
+        "pdf",
+        "epub",
+        "reading"
+      ],
+      "bestFor": [
+        "Ebook reading",
+        "PDF interaction",
+        "Reading assistant"
+      ],
+      "rating": 2,
+      "stars": 142,
+      "forks": 23,
+      "openIssues": 4,
+      "lastUpdated": "2025-09-07",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 28
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "description": "Obsidian vault integration. File management, search, and manipulation.",
+      "category": "productivity",
+      "author": "MarkusPfundstein",
+      "authorUrl": "https://github.com/MarkusPfundstein",
+      "githubUrl": "https://github.com/MarkusPfundstein/mcp-obsidian",
+      "installCommand": "npx -y mcp-obsidian",
+      "isOfficial": false,
+      "tags": [
+        "obsidian",
+        "notes",
+        "markdown",
+        "knowledge"
+      ],
+      "bestFor": [
+        "Knowledge management",
+        "Note taking",
+        "Personal wiki"
+      ],
+      "rating": 2,
+      "stars": 2558,
+      "forks": 323,
+      "openIssues": 67,
+      "lastUpdated": "2025-06-28",
+      "language": "Python",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "apple-notes",
+      "name": "Apple Notes",
+      "description": "Read from local Apple Notes database on macOS.",
+      "category": "productivity",
+      "author": "sirmews",
+      "authorUrl": "https://github.com/sirmews",
+      "githubUrl": "https://github.com/sirmews/apple-notes-mcp",
+      "installCommand": "npx -y apple-notes-mcp",
+      "isOfficial": false,
+      "tags": [
+        "apple",
+        "notes",
+        "macos",
+        "native"
+      ],
+      "bestFor": [
+        "Apple Notes access",
+        "macOS integration",
+        "Note search"
+      ],
+      "rating": 1,
+      "stars": 121,
+      "forks": 14,
+      "openIssues": 5,
+      "lastUpdated": "2024-12-11",
+      "language": "Python",
+      "license": "MIT",
+      "score": 18
+    },
+    {
+      "id": "slite",
+      "name": "Slite",
+      "description": "Slite workspace integration. Search and retrieve notes.",
+      "category": "productivity",
+      "author": "fajarmf",
+      "authorUrl": "https://github.com/fajarmf",
+      "githubUrl": "https://github.com/fajarmf/slite-mcp",
+      "installCommand": "npx -y slite-mcp",
+      "isOfficial": false,
+      "tags": [
+        "slite",
+        "notes",
+        "team",
+        "wiki"
+      ],
+      "bestFor": [
+        "Team notes",
+        "Knowledge base",
+        "Documentation"
+      ],
+      "rating": 2,
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "lastUpdated": "2025-07-22",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 24
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "description": "Todoist integration for natural language task management.",
+      "category": "productivity",
+      "author": "abhiz123",
+      "authorUrl": "https://github.com/abhiz123",
+      "githubUrl": "https://github.com/abhiz123/todoist-mcp-server",
+      "installCommand": "npx -y todoist-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "todoist",
+        "tasks",
+        "todo",
+        "productivity"
+      ],
+      "bestFor": [
+        "Task management",
+        "Todo lists",
+        "Project planning"
+      ],
+      "rating": 2,
+      "stars": 340,
+      "forks": 67,
+      "openIssues": 15,
+      "lastUpdated": "2025-04-20",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "description": "Read, create, update, and delete Google Keep notes.",
+      "category": "productivity",
+      "author": "feuerdev",
+      "authorUrl": "https://github.com/feuerdev",
+      "githubUrl": "https://github.com/feuerdev/keep-mcp",
+      "installCommand": "npx -y keep-mcp",
+      "isOfficial": false,
+      "tags": [
+        "google",
+        "keep",
+        "notes",
+        "lists"
+      ],
+      "bestFor": [
+        "Quick notes",
+        "Lists",
+        "Google ecosystem"
+      ],
+      "rating": 2,
+      "stars": 56,
+      "forks": 20,
+      "openIssues": 3,
+      "lastUpdated": "2025-04-12",
+      "language": "Python",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "tinybird",
+      "name": "Tinybird",
+      "description": "Interact with Tinybird workspace for real-time analytics.",
+      "category": "database",
+      "author": "Tinybird",
+      "authorUrl": "https://github.com/tinybirdco",
+      "githubUrl": "https://github.com/tinybirdco/mcp-tinybird",
+      "installCommand": "npx -y @tinybird/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "tinybird",
+        "analytics",
+        "realtime",
+        "data"
+      ],
+      "bestFor": [
+        "Real-time analytics",
+        "Data APIs",
+        "ClickHouse"
+      ],
+      "rating": 2,
+      "stars": 75,
+      "forks": 17,
+      "openIssues": 4,
+      "lastUpdated": "2025-09-01",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 36
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "description": "Turn Make scenarios into callable AI tools. Workflow automation.",
+      "category": "utilities",
+      "author": "Integromat",
+      "authorUrl": "https://github.com/integromat",
+      "githubUrl": "https://github.com/integromat/make-mcp-server",
+      "installCommand": "npx -y @make/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "make",
+        "automation",
+        "workflow",
+        "integrations"
+      ],
+      "bestFor": [
+        "Workflow automation",
+        "No-code integrations",
+        "Task automation"
+      ],
+      "rating": 3,
+      "stars": 146,
+      "forks": 41,
+      "openIssues": 5,
+      "lastUpdated": "2025-10-27",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 40
+    },
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "description": "Taskade MCP with OpenAPI codegen for AI agent tools.",
+      "category": "productivity",
+      "author": "Taskade",
+      "authorUrl": "https://github.com/taskade",
+      "githubUrl": "https://github.com/taskade/mcp",
+      "installCommand": "npx -y @taskade/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "taskade",
+        "tasks",
+        "ai",
+        "collaboration"
+      ],
+      "bestFor": [
+        "AI task management",
+        "Team collaboration",
+        "Project planning"
+      ],
+      "rating": 2,
+      "stars": 94,
+      "forks": 28,
+      "openIssues": 4,
+      "lastUpdated": "2025-05-30",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "description": "Autonomous shell execution and computer control on Mac.",
+      "category": "utilities",
+      "author": "rusiaaman",
+      "authorUrl": "https://github.com/rusiaaman",
+      "githubUrl": "https://github.com/rusiaaman/wcgw",
+      "installCommand": "pip install wcgw",
+      "isOfficial": false,
+      "tags": [
+        "shell",
+        "terminal",
+        "automation",
+        "mac"
+      ],
+      "bestFor": [
+        "Shell automation",
+        "Computer control",
+        "Task execution"
+      ],
+      "rating": 2,
+      "stars": 627,
+      "forks": 57,
+      "openIssues": 5,
+      "lastUpdated": "2025-12-21",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 38
+    },
+    {
+      "id": "windows-cli",
+      "name": "Windows CLI",
+      "description": "Windows CLI for PowerShell, CMD, and Git Bash access.",
+      "category": "utilities",
+      "author": "SimonB97",
+      "authorUrl": "https://github.com/SimonB97",
+      "githubUrl": "https://github.com/SimonB97/win-cli-mcp-server",
+      "installCommand": "npx -y win-cli-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "windows",
+        "powershell",
+        "cmd",
+        "bash"
+      ],
+      "bestFor": [
+        "Windows automation",
+        "PowerShell scripts",
+        "Command execution"
+      ],
+      "rating": 2,
+      "stars": 263,
+      "forks": 45,
+      "openIssues": 0,
+      "lastUpdated": "2025-08-07",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "windows-control",
+      "name": "Windows Control",
+      "description": "Windows automation with mouse, keyboard, and screen capture.",
+      "category": "utilities",
+      "author": "Cheffromspace",
+      "authorUrl": "https://github.com/Cheffromspace",
+      "githubUrl": "https://github.com/Cheffromspace/nutjs-windows-control",
+      "installCommand": "npx -y nutjs-windows-control",
+      "isOfficial": false,
+      "tags": [
+        "windows",
+        "automation",
+        "mouse",
+        "keyboard"
+      ],
+      "bestFor": [
+        "Desktop automation",
+        "GUI control",
+        "Screen capture"
+      ],
+      "rating": 2,
+      "stars": 259,
+      "forks": 40,
+      "openIssues": 39,
+      "lastUpdated": "2025-12-02",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "bluesky",
+      "name": "BlueSky",
+      "description": "BlueSky API integration. Query feeds and posts.",
+      "category": "communication",
+      "author": "keturiosakys",
+      "authorUrl": "https://github.com/keturiosakys",
+      "githubUrl": "https://github.com/keturiosakys/bluesky-context-server",
+      "installCommand": "npx -y bluesky-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "bluesky",
+        "social",
+        "feeds",
+        "posts"
+      ],
+      "bestFor": [
+        "BlueSky integration",
+        "Social media",
+        "Feed browsing"
+      ],
+      "rating": 2,
+      "stars": 29,
+      "forks": 8,
+      "openIssues": 1,
+      "lastUpdated": "2025-08-10",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 24
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "description": "YouTube integration using yt-dlp for subtitle and video analysis.",
+      "category": "media",
+      "author": "anaisbetts",
+      "authorUrl": "https://github.com/anaisbetts",
+      "githubUrl": "https://github.com/anaisbetts/mcp-youtube",
+      "installCommand": "npx -y mcp-youtube",
+      "isOfficial": false,
+      "tags": [
+        "youtube",
+        "video",
+        "subtitles",
+        "analysis"
+      ],
+      "bestFor": [
+        "Video analysis",
+        "Subtitle extraction",
+        "Content research"
+      ],
+      "rating": 2,
+      "stars": 481,
+      "forks": 57,
+      "openIssues": 12,
+      "lastUpdated": "2025-03-20",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "description": "Spotify playback control and music management.",
+      "category": "media",
+      "author": "varunneal",
+      "authorUrl": "https://github.com/varunneal",
+      "githubUrl": "https://github.com/varunneal/spotify-mcp",
+      "installCommand": "npx -y spotify-mcp",
+      "isOfficial": false,
+      "tags": [
+        "spotify",
+        "music",
+        "playback",
+        "playlists"
+      ],
+      "bestFor": [
+        "Music control",
+        "Playlist management",
+        "Audio playback"
+      ],
+      "rating": 2,
+      "stars": 545,
+      "forks": 103,
+      "openIssues": 22,
+      "lastUpdated": "2025-08-12",
+      "language": "Python",
+      "license": "MIT",
+      "score": 29
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "description": "TikTok integration for post details and subtitles.",
+      "category": "media",
+      "author": "Seym0n",
+      "authorUrl": "https://github.com/Seym0n",
+      "githubUrl": "https://github.com/Seym0n/tiktok-mcp",
+      "installCommand": "npx -y tiktok-mcp",
+      "isOfficial": false,
+      "tags": [
+        "tiktok",
+        "video",
+        "social",
+        "subtitles"
+      ],
+      "bestFor": [
+        "TikTok research",
+        "Video content",
+        "Trend analysis"
+      ],
+      "rating": 2,
+      "stars": 118,
+      "forks": 19,
+      "openIssues": 1,
+      "lastUpdated": "2025-08-25",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 26
+    },
+    {
+      "id": "unity",
+      "name": "Unity Engine",
+      "description": "Unity Editor integration for game development.",
+      "category": "media",
+      "author": "IvanMurzak",
+      "authorUrl": "https://github.com/IvanMurzak",
+      "githubUrl": "https://github.com/IvanMurzak/Unity-MCP",
+      "installCommand": "npm install unity-mcp",
+      "isOfficial": false,
+      "tags": [
+        "unity",
+        "game",
+        "3d",
+        "development"
+      ],
+      "bestFor": [
+        "Game development",
+        "Unity automation",
+        "3D projects"
+      ],
+      "rating": 2,
+      "stars": 598,
+      "forks": 71,
+      "openIssues": 36,
+      "lastUpdated": "2025-12-21",
+      "language": "C#",
+      "license": "Apache-2.0",
+      "score": 36
+    },
+    {
+      "id": "octagon",
+      "name": "Octagon",
+      "description": "Real-time market intelligence with private and public market data.",
+      "category": "productivity",
+      "author": "Octagon AI",
+      "authorUrl": "https://github.com/OctagonAI",
+      "githubUrl": "https://github.com/OctagonAI/octagon-mcp-server",
+      "installCommand": "npx -y @octagon/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "finance",
+        "market",
+        "intelligence",
+        "data"
+      ],
+      "bestFor": [
+        "Market research",
+        "Financial data",
+        "Investment analysis"
+      ],
+      "rating": 2,
+      "stars": 86,
+      "forks": 17,
+      "openIssues": 4,
+      "lastUpdated": "2025-07-21",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 36
+    },
+    {
+      "id": "coinmarket",
+      "name": "CoinMarketCap",
+      "description": "CoinMarketCap API for cryptocurrency data.",
+      "category": "utilities",
+      "author": "anjor",
+      "authorUrl": "https://github.com/anjor",
+      "githubUrl": "https://github.com/anjor/coinmarket-mcp-server",
+      "installCommand": "npx -y coinmarket-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "prices",
+        "market"
+      ],
+      "bestFor": [
+        "Crypto prices",
+        "Market data",
+        "Token research"
+      ],
+      "rating": 2,
+      "stars": 44,
+      "forks": 15,
+      "openIssues": 2,
+      "lastUpdated": "2025-06-24",
+      "language": "Python",
+      "license": "MIT",
+      "score": 21
+    },
+    {
+      "id": "chargebee",
+      "name": "Chargebee",
+      "description": "Chargebee subscription billing platform integration.",
+      "category": "productivity",
+      "author": "Chargebee",
+      "authorUrl": "https://github.com/chargebee",
+      "githubUrl": "https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol",
+      "installCommand": "npx -y @chargebee/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "billing",
+        "subscriptions",
+        "saas",
+        "payments"
+      ],
+      "bestFor": [
+        "Subscription management",
+        "Billing automation",
+        "SaaS"
+      ],
+      "rating": 2,
+      "stars": 13,
+      "forks": 7,
+      "openIssues": 0,
+      "lastUpdated": "2025-11-18",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 38
+    },
+    {
+      "id": "dexpaprika",
+      "name": "DexPaprika",
+      "description": "Comprehensive DEX data across multiple blockchains. Token pricing and OHLCV.",
+      "category": "utilities",
+      "author": "donbagger",
+      "authorUrl": "https://github.com/donbagger",
+      "githubUrl": "https://github.com/donbagger/dexpaprika-mcp-server",
+      "installCommand": "npx -y dexpaprika-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "dex",
+        "crypto",
+        "defi",
+        "trading"
+      ],
+      "bestFor": [
+        "DEX analytics",
+        "DeFi research",
+        "Token data"
+      ],
+      "rating": 4
+    },
+    {
+      "id": "longport",
+      "name": "LongPort OpenAPI",
+      "description": "Real-time stock market data with AI trading capabilities.",
+      "category": "utilities",
+      "author": "LongPort",
+      "authorUrl": "https://github.com/longportapp",
+      "githubUrl": "https://github.com/longportapp/openapi/tree/main/mcp",
+      "installCommand": "npx -y @longport/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "stocks",
+        "trading",
+        "market",
+        "finance"
+      ],
+      "bestFor": [
+        "Stock trading",
+        "Market data",
+        "Trading automation"
+      ],
+      "rating": 3,
+      "stars": 328,
+      "forks": 48,
+      "openIssues": 76,
+      "lastUpdated": "2025-12-15",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "score": 46
+    },
+    {
+      "id": "zbd",
+      "name": "ZBD Payments",
+      "description": "ZBD payment processing with Bitcoin and Lightning Network.",
+      "category": "utilities",
+      "author": "Zebedee",
+      "authorUrl": "https://github.com/zebedeeio",
+      "githubUrl": "https://github.com/zebedeeio/zbd-payments-typescript-sdk",
+      "installCommand": "npx -y @zbd/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "bitcoin",
+        "lightning",
+        "payments",
+        "crypto"
+      ],
+      "bestFor": [
+        "Bitcoin payments",
+        "Lightning Network",
+        "Instant payments"
+      ],
+      "rating": 2,
+      "stars": 7,
+      "forks": 2,
+      "openIssues": 1,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 39
+    },
+    {
+      "id": "ancestry",
+      "name": "Ancestry",
+      "description": "Read GEDCOM files and genetic data for genealogy.",
+      "category": "utilities",
+      "author": "reeeeemo",
+      "authorUrl": "https://github.com/reeeeemo",
+      "githubUrl": "https://github.com/reeeeemo/ancestry-mcp",
+      "installCommand": "npx -y ancestry-mcp",
+      "isOfficial": false,
+      "tags": [
+        "genealogy",
+        "dna",
+        "family",
+        "history"
+      ],
+      "bestFor": [
+        "Family tree",
+        "Genetic data",
+        "Ancestry research"
+      ],
+      "rating": 2,
+      "stars": 29,
+      "forks": 6,
+      "openIssues": 0,
+      "lastUpdated": "2025-01-03",
+      "language": "Python",
+      "license": "MIT",
+      "score": 21
+    },
+    {
+      "id": "probe-dev",
+      "name": "Probe.dev",
+      "description": "Media analysis with FFprobe, MediaInfo, and reporting.",
+      "category": "media",
+      "author": "Probe",
+      "authorUrl": "https://github.com/probe",
+      "githubUrl": "https://mcp.probe.dev",
+      "installCommand": "npx -y @probe/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "media",
+        "ffprobe",
+        "analysis",
+        "video"
+      ],
+      "bestFor": [
+        "Media validation",
+        "Format analysis",
+        "Quality checks"
+      ],
+      "rating": 4
+    },
+    {
+      "id": "opennutrition",
+      "name": "OpenNutrition",
+      "description": "Search 300,000+ foods with nutrition facts and barcodes.",
+      "category": "utilities",
+      "author": "deadletterq",
+      "authorUrl": "https://github.com/deadletterq",
+      "githubUrl": "https://github.com/deadletterq/mcp-opennutrition",
+      "installCommand": "npx -y mcp-opennutrition",
+      "isOfficial": false,
+      "tags": [
+        "nutrition",
+        "food",
+        "health",
+        "barcodes"
+      ],
+      "bestFor": [
+        "Food lookup",
+        "Nutrition tracking",
+        "Diet planning"
+      ],
+      "rating": 2,
+      "stars": 145,
+      "forks": 15,
+      "openIssues": 0,
+      "lastUpdated": "2025-06-11",
+      "language": "TypeScript",
+      "license": "GPL-3.0",
+      "score": 25
+    },
+    {
+      "id": "congress",
+      "name": "Congress",
+      "description": "Query and reason about legislative data from Congress.gov.",
+      "category": "utilities",
+      "author": "amurshak",
+      "authorUrl": "https://github.com/amurshak",
+      "githubUrl": "https://github.com/amurshak/congressMCP",
+      "installCommand": "npx -y congress-mcp",
+      "isOfficial": false,
+      "tags": [
+        "congress",
+        "legislation",
+        "government",
+        "bills"
+      ],
+      "bestFor": [
+        "Legislative research",
+        "Bill tracking",
+        "Policy analysis"
+      ],
+      "rating": 2,
+      "stars": 20,
+      "forks": 5,
+      "openIssues": 2,
+      "lastUpdated": "2025-09-18",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "score": 26
+    },
+    {
+      "id": "agentset",
+      "name": "Agentset AI",
+      "description": "RAG on your data using MCP protocol.",
+      "category": "ai-tools",
+      "author": "Agentset",
+      "authorUrl": "https://github.com/agentset-ai",
+      "githubUrl": "https://github.com/agentset-ai/mcp-server",
+      "installCommand": "npx -y @agentset/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "rag",
+        "ai",
+        "documents",
+        "search"
+      ],
+      "bestFor": [
+        "Document RAG",
+        "Knowledge retrieval",
+        "AI search"
+      ],
+      "rating": 2,
+      "stars": 25,
+      "forks": 10,
+      "openIssues": 0,
+      "lastUpdated": "2025-06-16",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 31
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "description": "Query OpenAI models directly from Claude using MCP.",
+      "category": "ai-tools",
+      "author": "pierrebrunelle",
+      "authorUrl": "https://github.com/pierrebrunelle",
+      "githubUrl": "https://github.com/pierrebrunelle/mcp-server-openai",
+      "installCommand": "npx -y mcp-server-openai",
+      "isOfficial": false,
+      "tags": [
+        "openai",
+        "gpt",
+        "llm",
+        "ai"
+      ],
+      "bestFor": [
+        "GPT access",
+        "Multi-model",
+        "AI orchestration"
+      ],
+      "rating": 2,
+      "stars": 77,
+      "forks": 20,
+      "openIssues": 6,
+      "lastUpdated": "2024-11-28",
+      "language": "Python",
+      "license": "MIT",
+      "score": 20
+    },
+    {
+      "id": "openai-compatible",
+      "name": "OpenAI Compatible Chat",
+      "description": "Chat with models from OpenAI-compatible APIs (Perplexity, Groq, xAI).",
+      "category": "ai-tools",
+      "author": "pyroprompts",
+      "authorUrl": "https://github.com/pyroprompts",
+      "githubUrl": "https://github.com/pyroprompts/any-chat-completions-mcp",
+      "installCommand": "npx -y any-chat-completions-mcp",
+      "isOfficial": false,
+      "tags": [
+        "openai",
+        "groq",
+        "perplexity",
+        "compatible"
+      ],
+      "bestFor": [
+        "Multi-provider",
+        "API compatibility",
+        "Model switching"
+      ],
+      "rating": 2,
+      "stars": 146,
+      "forks": 25,
+      "openIssues": 6,
+      "lastUpdated": "2025-05-01",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 25
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "description": "Chat with Perplexity via MCP. AI-powered search.",
+      "category": "ai-tools",
+      "author": "tanigami",
+      "authorUrl": "https://github.com/tanigami",
+      "githubUrl": "https://github.com/tanigami/mcp-server-perplexity",
+      "installCommand": "npx -y mcp-server-perplexity",
+      "isOfficial": false,
+      "tags": [
+        "perplexity",
+        "search",
+        "ai",
+        "research"
+      ],
+      "bestFor": [
+        "AI search",
+        "Research",
+        "Fact-finding"
+      ],
+      "rating": 1,
+      "stars": 86,
+      "forks": 39,
+      "openIssues": 3,
+      "lastUpdated": "2024-12-25",
+      "language": "Python",
+      "license": "MIT",
+      "score": 18
+    },
+    {
+      "id": "llamacloud",
+      "name": "LlamaCloud",
+      "description": "LlamaCloud for managed LlamaIndex. Enterprise RAG.",
+      "category": "ai-tools",
+      "author": "LlamaIndex",
+      "authorUrl": "https://github.com/run-llama",
+      "githubUrl": "https://github.com/run-llama/mcp-server-llamacloud",
+      "installCommand": "npx -y mcp-server-llamacloud",
+      "isOfficial": true,
+      "tags": [
+        "llamaindex",
+        "rag",
+        "enterprise",
+        "managed"
+      ],
+      "bestFor": [
+        "Enterprise RAG",
+        "LlamaIndex",
+        "Managed service"
+      ],
+      "rating": 2,
+      "stars": 84,
+      "forks": 18,
+      "openIssues": 2,
+      "lastUpdated": "2025-06-24",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "huggingface",
+      "name": "HuggingFace Spaces",
+      "description": "Use HuggingFace Spaces for images, audio, text, and more.",
+      "category": "ai-tools",
+      "author": "evalstate",
+      "authorUrl": "https://github.com/evalstate",
+      "githubUrl": "https://github.com/evalstate/mcp-hfspace",
+      "installCommand": "npx -y mcp-hfspace",
+      "isOfficial": false,
+      "tags": [
+        "huggingface",
+        "spaces",
+        "ml",
+        "models"
+      ],
+      "bestFor": [
+        "ML models",
+        "Inference",
+        "Demos"
+      ],
+      "rating": 2,
+      "stars": 375,
+      "forks": 57,
+      "openIssues": 12,
+      "lastUpdated": "2025-06-13",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 28
+    },
+    {
+      "id": "piapi",
+      "name": "PiAPI",
+      "description": "Generate media with Midjourney, Flux, Kling, and more.",
+      "category": "media",
+      "author": "API Network",
+      "authorUrl": "https://github.com/apinetwork",
+      "githubUrl": "https://github.com/apinetwork/piapi-mcp-server",
+      "installCommand": "npx -y piapi-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "midjourney",
+        "flux",
+        "ai",
+        "generation"
+      ],
+      "bestFor": [
+        "AI art",
+        "Image generation",
+        "Creative media"
+      ],
+      "rating": 2,
+      "stars": 65,
+      "forks": 23,
+      "openIssues": 5,
+      "lastUpdated": "2025-08-15",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 36
+    },
+    {
+      "id": "chronulus",
+      "name": "Chronulus AI",
+      "description": "Multimodal forecasting and prediction agents.",
+      "category": "ai-tools",
+      "author": "Chronulus AI",
+      "authorUrl": "https://github.com/ChronulusAI",
+      "githubUrl": "https://github.com/ChronulusAI/chronulus-mcp",
+      "installCommand": "npx -y @chronulus/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "forecasting",
+        "prediction",
+        "ai",
+        "timeseries"
+      ],
+      "bestFor": [
+        "Predictions",
+        "Forecasting",
+        "Time series"
+      ],
+      "rating": 2,
+      "stars": 102,
+      "forks": 19,
+      "openIssues": 4,
+      "lastUpdated": "2025-07-19",
+      "language": "Python",
+      "license": "MIT",
+      "score": 36
+    },
+    {
+      "id": "creatify",
+      "name": "Creatify",
+      "description": "AI video generation including avatar videos and text-to-speech.",
+      "category": "media",
+      "author": "TSavo",
+      "authorUrl": "https://github.com/TSavo",
+      "githubUrl": "https://github.com/TSavo/creatify-mcp",
+      "installCommand": "npx -y creatify-mcp",
+      "isOfficial": false,
+      "tags": [
+        "video",
+        "avatar",
+        "tts",
+        "ai"
+      ],
+      "bestFor": [
+        "AI video creation",
+        "Avatar videos",
+        "Marketing videos"
+      ],
+      "rating": 2,
+      "stars": 15,
+      "forks": 3,
+      "openIssues": 2,
+      "lastUpdated": "2025-05-26",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "score": 23
+    },
+    {
+      "id": "zenml",
+      "name": "ZenML",
+      "description": "Chat with MLOps and LLMOps pipelines using ZenML.",
+      "category": "ai-tools",
+      "author": "ZenML",
+      "authorUrl": "https://github.com/zenml-io",
+      "githubUrl": "https://github.com/zenml-io/mcp-zenml",
+      "installCommand": "npx -y @zenml/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "mlops",
+        "llmops",
+        "pipelines",
+        "ml"
+      ],
+      "bestFor": [
+        "ML pipelines",
+        "MLOps",
+        "Model deployment"
+      ],
+      "rating": 3,
+      "stars": 39,
+      "forks": 10,
+      "openIssues": 1,
+      "lastUpdated": "2025-12-17",
+      "language": "Python",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "Get Figma design data in implementation-ready format.",
+      "category": "utilities",
+      "author": "GLips",
+      "authorUrl": "https://github.com/GLips",
+      "githubUrl": "https://github.com/GLips/Figma-Context-MCP",
+      "installCommand": "npx -y figma-context-mcp",
+      "isOfficial": false,
+      "tags": [
+        "figma",
+        "design",
+        "ui",
+        "frontend"
+      ],
+      "bestFor": [
+        "Design-to-code",
+        "UI implementation",
+        "Design specs"
+      ],
+      "rating": 3,
+      "stars": 12278,
+      "forks": 995,
+      "openIssues": 36,
+      "lastUpdated": "2025-10-14",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 42
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "description": "Interact with Postman API for API development.",
+      "category": "utilities",
+      "author": "delano",
+      "authorUrl": "https://github.com/delano",
+      "githubUrl": "https://github.com/delano/postman-mcp-server",
+      "installCommand": "npx -y postman-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "postman",
+        "api",
+        "testing",
+        "development"
+      ],
+      "bestFor": [
+        "API testing",
+        "Collection management",
+        "Documentation"
+      ],
+      "rating": 2,
+      "stars": 143,
+      "forks": 33,
+      "openIssues": 9,
+      "lastUpdated": "2025-12-02",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "qa-sphere",
+      "name": "QA Sphere",
+      "description": "QA Sphere test management. Discover and interact with test cases.",
+      "category": "utilities",
+      "author": "Hypersequent",
+      "authorUrl": "https://github.com/Hypersequent",
+      "githubUrl": "https://github.com/Hypersequent/qasphere-mcp",
+      "installCommand": "npx -y @qasphere/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "testing",
+        "qa",
+        "test-management",
+        "quality"
+      ],
+      "bestFor": [
+        "Test management",
+        "QA workflows",
+        "Test discovery"
+      ],
+      "rating": 3,
+      "stars": 17,
+      "forks": 8,
+      "openIssues": 1,
+      "lastUpdated": "2025-12-19",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 41
+    },
+    {
+      "id": "vscode-devtools",
+      "name": "VSCode Devtools",
+      "description": "Connect to VSCode IDE with semantic tools like find_usages.",
+      "category": "utilities",
+      "author": "biegehydra",
+      "authorUrl": "https://github.com/biegehydra",
+      "githubUrl": "https://github.com/biegehydra/BifrostMCP",
+      "installCommand": "npx -y bifrost-mcp",
+      "isOfficial": false,
+      "tags": [
+        "vscode",
+        "ide",
+        "semantic",
+        "development"
+      ],
+      "bestFor": [
+        "IDE integration",
+        "Code navigation",
+        "Semantic search"
+      ],
+      "rating": 2,
+      "stars": 193,
+      "forks": 34,
+      "openIssues": 8,
+      "lastUpdated": "2025-12-15",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "score": 35
+    },
+    {
+      "id": "gitkraken",
+      "name": "GitKraken",
+      "description": "GitKraken CLI with MCP. GitHub, GitLab, Jira, and more.",
+      "category": "version-control",
+      "author": "GitKraken",
+      "authorUrl": "https://github.com/gitkraken",
+      "githubUrl": "https://github.com/gitkraken/gk-cli",
+      "installCommand": "npx -y @gitkraken/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "gitkraken",
+        "git",
+        "github",
+        "gitlab"
+      ],
+      "bestFor": [
+        "Git workflows",
+        "Multi-platform",
+        "Code review"
+      ],
+      "rating": 3,
+      "stars": 335,
+      "forks": 261,
+      "openIssues": 15,
+      "lastUpdated": "2025-11-24",
+      "license": "NOASSERTION",
+      "score": 46
+    },
+    {
+      "id": "vegalite",
+      "name": "VegaLite",
+      "description": "Generate visualizations using VegaLite format and renderer.",
+      "category": "utilities",
+      "author": "isaacwasserman",
+      "authorUrl": "https://github.com/isaacwasserman",
+      "githubUrl": "https://github.com/isaacwasserman/mcp-vegalite-server",
+      "installCommand": "npx -y mcp-vegalite-server",
+      "isOfficial": false,
+      "tags": [
+        "vega",
+        "visualization",
+        "charts",
+        "data"
+      ],
+      "bestFor": [
+        "Data visualization",
+        "Charts",
+        "Interactive graphics"
+      ],
+      "rating": 2,
+      "stars": 94,
+      "forks": 25,
+      "openIssues": 3,
+      "lastUpdated": "2025-05-16",
+      "language": "Python",
+      "score": 25
+    },
+    {
+      "id": "keycloak",
+      "name": "Keycloak",
+      "description": "Keycloak identity management with natural language queries.",
+      "category": "utilities",
+      "author": "ChristophEnglisch",
+      "authorUrl": "https://github.com/ChristophEnglisch",
+      "githubUrl": "https://github.com/ChristophEnglisch/keycloak-model-context-protocol",
+      "installCommand": "npx -y keycloak-mcp",
+      "isOfficial": false,
+      "tags": [
+        "keycloak",
+        "identity",
+        "auth",
+        "sso"
+      ],
+      "bestFor": [
+        "Identity management",
+        "User administration",
+        "SSO"
+      ],
+      "rating": 2,
+      "stars": 34,
+      "forks": 10,
+      "openIssues": 3,
+      "lastUpdated": "2025-02-09",
+      "language": "TypeScript",
+      "score": 23
+    },
+    {
+      "id": "composio",
+      "name": "Composio/Rube",
+      "description": "Connect to 500+ apps like Gmail, Slack, GitHub, Notion.",
+      "category": "utilities",
+      "author": "Composio",
+      "authorUrl": "https://github.com/composiohq",
+      "githubUrl": "https://rube.composio.dev",
+      "installCommand": "npx -y @composio/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "integration",
+        "apps",
+        "automation",
+        "api"
+      ],
+      "bestFor": [
+        "App integration",
+        "Workflow automation",
+        "Multi-tool access"
+      ],
+      "rating": 5
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "description": "Connect AI agents to 8,000 apps instantly.",
+      "category": "utilities",
+      "author": "Zapier",
+      "authorUrl": "https://github.com/zapier",
+      "githubUrl": "https://zapier.com/mcp",
+      "installCommand": "npx -y @zapier/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "zapier",
+        "automation",
+        "integration",
+        "apps"
+      ],
+      "bestFor": [
+        "No-code automation",
+        "App connections",
+        "Workflows"
+      ],
+      "rating": 5
+    },
+    {
+      "id": "lara-translate",
+      "name": "Lara Translate",
+      "description": "Powerful translation with language detection and context awareness.",
+      "category": "utilities",
+      "author": "Translated",
+      "authorUrl": "https://github.com/translated",
+      "githubUrl": "https://github.com/translated/lara-mcp",
+      "installCommand": "npx -y @translated/lara-mcp",
+      "isOfficial": true,
+      "tags": [
+        "translation",
+        "language",
+        "localization",
+        "ai"
+      ],
+      "bestFor": [
+        "Translation",
+        "Localization",
+        "Multi-language"
+      ],
+      "rating": 3,
+      "stars": 75,
+      "forks": 16,
+      "openIssues": 1,
+      "lastUpdated": "2025-10-06",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 40
+    },
+    {
+      "id": "semgrep",
+      "name": "Semgrep",
+      "description": "Scan code for security vulnerabilities using Semgrep.",
+      "category": "utilities",
+      "author": "Semgrep",
+      "authorUrl": "https://github.com/semgrep",
+      "githubUrl": "https://github.com/semgrep/mcp",
+      "installCommand": "npx -y @semgrep/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "security",
+        "sast",
+        "vulnerabilities",
+        "scanning"
+      ],
+      "bestFor": [
+        "Security scanning",
+        "Code review",
+        "Vulnerability detection"
+      ],
+      "rating": 3,
+      "stars": 622,
+      "forks": 54,
+      "openIssues": 29,
+      "lastUpdated": "2025-10-28",
+      "language": "Python",
+      "license": "MIT",
+      "score": 43
+    },
+    {
+      "id": "entra-id",
+      "name": "Microsoft Entra ID",
+      "description": "Microsoft Entra ID via Graph API. Users, sign-ins, MFA status.",
+      "category": "utilities",
+      "author": "hieuttmmo",
+      "authorUrl": "https://github.com/hieuttmmo",
+      "githubUrl": "https://github.com/hieuttmmo/entraid-mcp-server",
+      "installCommand": "npx -y entraid-mcp-server",
+      "isOfficial": false,
+      "tags": [
+        "azure",
+        "identity",
+        "microsoft",
+        "auth"
+      ],
+      "bestFor": [
+        "Azure AD",
+        "Identity management",
+        "Enterprise auth"
+      ],
+      "rating": 2,
+      "stars": 31,
+      "forks": 10,
+      "openIssues": 2,
+      "lastUpdated": "2025-05-02",
+      "language": "Python",
+      "score": 23
+    },
+    {
+      "id": "osv",
+      "name": "OSV",
+      "description": "Open Source Vulnerabilities database. Query by package or commit.",
+      "category": "utilities",
+      "author": "StacklokLabs",
+      "authorUrl": "https://github.com/StacklokLabs",
+      "githubUrl": "https://github.com/StacklokLabs/osv-mcp",
+      "installCommand": "npx -y osv-mcp",
+      "isOfficial": false,
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "osv",
+        "packages"
+      ],
+      "bestFor": [
+        "Vulnerability lookup",
+        "Dependency security",
+        "OSS safety"
+      ],
+      "rating": 2,
+      "stars": 25,
+      "forks": 4,
+      "openIssues": 4,
+      "lastUpdated": "2025-12-17",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "score": 33
+    },
+    {
+      "id": "coreflux-mqtt",
+      "name": "Coreflux MQTT",
+      "description": "MQTT broker for IoT devices and messaging systems.",
+      "category": "utilities",
+      "author": "CorefluxCommunity",
+      "authorUrl": "https://github.com/CorefluxCommunity",
+      "githubUrl": "https://github.com/CorefluxCommunity/CorefluxMCPServer",
+      "installCommand": "npx -y coreflux-mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "mqtt",
+        "iot",
+        "messaging",
+        "automation"
+      ],
+      "bestFor": [
+        "IoT devices",
+        "MQTT messaging",
+        "Home automation"
+      ],
+      "rating": 2,
+      "stars": 3,
+      "forks": 0,
+      "openIssues": 0,
+      "lastUpdated": "2025-08-01",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 32
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library",
+      "description": "Internet Archive's Open Library API. Search books and authors.",
+      "category": "utilities",
+      "author": "8enSmith",
+      "authorUrl": "https://github.com/8enSmith",
+      "githubUrl": "https://github.com/8enSmith/mcp-open-library",
+      "installCommand": "npx -y mcp-open-library",
+      "isOfficial": false,
+      "tags": [
+        "books",
+        "library",
+        "archive",
+        "reading"
+      ],
+      "bestFor": [
+        "Book search",
+        "Author info",
+        "Literary research"
+      ],
+      "rating": 2,
+      "stars": 46,
+      "forks": 16,
+      "openIssues": 1,
+      "lastUpdated": "2025-11-20",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 30
+    },
+    {
+      "id": "mercado-libre",
+      "name": "Mercado Libre",
+      "description": "Mercado Libre marketplace integration for Latin America.",
+      "category": "productivity",
+      "author": "Mercado Libre",
+      "authorUrl": "https://github.com/mercadolibre",
+      "githubUrl": "https://mcp.mercadolibre.com/",
+      "installCommand": "npx -y @mercadolibre/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "ecommerce",
+        "marketplace",
+        "latam",
+        "shopping"
+      ],
+      "bestFor": [
+        "E-commerce",
+        "Latin America",
+        "Product listings"
+      ],
+      "rating": 4
+    },
+    {
+      "id": "shopsavvy",
+      "name": "ShopSavvy",
+      "description": "Product and pricing data from thousands of retailers.",
+      "category": "productivity",
+      "author": "ShopSavvy",
+      "authorUrl": "https://github.com/shopsavvy",
+      "githubUrl": "https://github.com/shopsavvy/shopsavvy-mcp-server",
+      "installCommand": "npx -y @shopsavvy/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "shopping",
+        "prices",
+        "barcode",
+        "products"
+      ],
+      "bestFor": [
+        "Price comparison",
+        "Product search",
+        "Barcode lookup"
+      ],
+      "rating": 2,
+      "stars": 5,
+      "forks": 3,
+      "openIssues": 1,
+      "lastUpdated": "2025-07-30",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 32
+    },
+    {
+      "id": "keboola",
+      "name": "Keboola",
+      "description": "Data platform for workflows, integrations, and analytics.",
+      "category": "database",
+      "author": "Keboola",
+      "authorUrl": "https://github.com/keboola",
+      "githubUrl": "https://github.com/keboola/keboola-mcp-server",
+      "installCommand": "npx -y @keboola/mcp-server",
+      "isOfficial": true,
+      "tags": [
+        "data",
+        "etl",
+        "analytics",
+        "platform"
+      ],
+      "bestFor": [
+        "Data pipelines",
+        "ETL",
+        "Data integration"
+      ],
+      "rating": 3,
+      "stars": 80,
+      "forks": 21,
+      "openIssues": 3,
+      "lastUpdated": "2025-12-19",
+      "language": "Python",
+      "license": "MIT",
+      "score": 43
+    },
+    {
+      "id": "bagel",
+      "name": "Bagel",
+      "description": "ChatGPT for physical data. Troubleshoot robots and drones.",
+      "category": "utilities",
+      "author": "Extelligence",
+      "authorUrl": "https://github.com/Extelligence-ai",
+      "githubUrl": "https://github.com/Extelligence-ai/bagel",
+      "installCommand": "npx -y @extelligence/bagel-mcp",
+      "isOfficial": true,
+      "tags": [
+        "robotics",
+        "drones",
+        "physical",
+        "troubleshooting"
+      ],
+      "bestFor": [
+        "Robotics",
+        "Drone troubleshooting",
+        "Physical AI"
+      ],
+      "rating": 3,
+      "stars": 369,
+      "forks": 25,
+      "openIssues": 13,
+      "lastUpdated": "2025-11-18",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 43
+    },
+    {
+      "id": "mcp-get",
+      "name": "MCP Get",
+      "description": "CLI tool for installing and managing MCP servers.",
+      "category": "utilities",
+      "author": "michaellatman",
+      "authorUrl": "https://github.com/michaellatman",
+      "githubUrl": "https://github.com/michaellatman/mcp-get",
+      "installCommand": "npx -y mcp-get",
+      "isOfficial": false,
+      "tags": [
+        "cli",
+        "install",
+        "management",
+        "npm"
+      ],
+      "bestFor": [
+        "Server installation",
+        "MCP management",
+        "Configuration"
+      ],
+      "rating": 2,
+      "stars": 498,
+      "forks": 105,
+      "openIssues": 15,
+      "lastUpdated": "2025-11-09",
+      "language": "TypeScript",
+      "license": "MIT",
+      "score": 33
+    },
+    {
+      "id": "toolhive",
+      "name": "ToolHive",
+      "description": "Lightweight MCP server deployment via containerization.",
+      "category": "utilities",
+      "author": "StacklokLabs",
+      "authorUrl": "https://github.com/StacklokLabs",
+      "githubUrl": "https://github.com/StacklokLabs/toolhive",
+      "installCommand": "npx -y toolhive",
+      "isOfficial": false,
+      "tags": [
+        "containers",
+        "deployment",
+        "docker",
+        "management"
+      ],
+      "bestFor": [
+        "Container deployment",
+        "Server management",
+        "Security"
+      ],
+      "rating": 3,
+      "stars": 1437,
+      "forks": 158,
+      "openIssues": 262,
+      "lastUpdated": "2025-12-21",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "score": 45
+    },
+    {
+      "id": "dumpling-ai",
+      "name": "Dumpling AI",
+      "description": "Data access, web scraping, and document conversion APIs.",
+      "category": "browser-automation",
+      "author": "Dumpling AI",
+      "authorUrl": "https://github.com/Dumpling-AI",
+      "githubUrl": "https://github.com/Dumpling-AI/mcp-server-dumplingai",
+      "installCommand": "npx -y mcp-server-dumplingai",
+      "isOfficial": true,
+      "tags": [
+        "scraping",
+        "documents",
+        "conversion",
+        "data"
+      ],
+      "bestFor": [
+        "Document conversion",
+        "Web scraping",
+        "Data extraction"
+      ],
+      "rating": 2,
+      "stars": 29,
+      "forks": 8,
+      "openIssues": 7,
+      "lastUpdated": "2025-07-10",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 34
+    },
+    {
+      "id": "file-backup",
+      "name": "File Backup",
+      "description": "File and folder backup and restoration capabilities.",
+      "category": "filesystem",
+      "author": "hexitex",
+      "authorUrl": "https://github.com/hexitex",
+      "githubUrl": "https://github.com/hexitex/MCP-Backup-Server",
+      "installCommand": "npx -y mcp-backup-server",
+      "isOfficial": false,
+      "tags": [
+        "backup",
+        "restore",
+        "files",
+        "folders"
+      ],
+      "bestFor": [
+        "File backup",
+        "Disaster recovery",
+        "Version control"
+      ],
+      "rating": 2,
+      "stars": 11,
+      "forks": 6,
+      "openIssues": 0,
+      "lastUpdated": "2025-08-08",
+      "language": "JavaScript",
+      "license": "MIT",
+      "score": 26
+    },
+    {
+      "id": "filestash",
+      "name": "FileStash",
+      "description": "Remote storage access: SFTP, S3, FTP, WebDAV, Azure, and more.",
+      "category": "filesystem",
+      "author": "mickael-kerjean",
+      "authorUrl": "https://github.com/mickael-kerjean",
+      "githubUrl": "https://github.com/mickael-kerjean/filestash",
+      "installCommand": "pip install filestash-mcp",
+      "isOfficial": false,
+      "tags": [
+        "storage",
+        "sftp",
+        "s3",
+        "cloud"
+      ],
+      "bestFor": [
+        "Remote storage",
+        "Multi-cloud files",
+        "FTP/SFTP"
+      ],
+      "rating": 3,
+      "stars": 13231,
+      "forks": 942,
+      "openIssues": 57,
+      "lastUpdated": "2025-12-19",
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "score": 45
+    },
+    {
+      "id": "everything-search",
+      "name": "Everything Search",
+      "description": "Lightning-fast Windows file search using Everything SDK.",
+      "category": "filesystem",
+      "author": "mamertofabian",
+      "authorUrl": "https://github.com/mamertofabian",
+      "githubUrl": "https://github.com/mamertofabian/mcp-everything-search",
+      "installCommand": "npx -y mcp-everything-search",
+      "isOfficial": false,
+      "tags": [
+        "search",
+        "windows",
+        "files",
+        "fast"
+      ],
+      "bestFor": [
+        "Windows file search",
+        "Instant search",
+        "File discovery"
+      ],
+      "rating": 2,
+      "stars": 279,
+      "forks": 36,
+      "openIssues": 14,
+      "lastUpdated": "2025-10-20",
+      "language": "Python",
+      "license": "MIT",
+      "score": 35
+    },
+    {
+      "id": "fast-filesystem",
+      "name": "Fast Filesystem",
+      "description": "Advanced filesystem with large file handling and streaming.",
+      "category": "filesystem",
+      "author": "efforthye",
+      "authorUrl": "https://github.com/efforthye",
+      "githubUrl": "https://github.com/efforthye/fast-filesystem-mcp",
+      "installCommand": "npx -y fast-filesystem-mcp",
+      "isOfficial": false,
+      "tags": [
+        "filesystem",
+        "large-files",
+        "streaming",
+        "backup"
+      ],
+      "bestFor": [
+        "Large files",
+        "Streaming operations",
+        "Performance"
+      ],
+      "rating": 2,
+      "stars": 34,
+      "forks": 13,
+      "openIssues": 4,
+      "lastUpdated": "2025-11-21",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "score": 30
+    },
+    {
+      "id": "llm-context",
+      "name": "LLM Context",
+      "description": "Share code context with LLMs via MCP or clipboard.",
+      "category": "ai-tools",
+      "author": "cyberchitta",
+      "authorUrl": "https://github.com/cyberchitta",
+      "githubUrl": "https://github.com/cyberchitta/llm-context.py",
+      "installCommand": "pip install llm-context",
+      "isOfficial": false,
+      "tags": [
+        "context",
+        "code",
+        "clipboard",
+        "sharing"
+      ],
+      "bestFor": [
+        "Code sharing",
+        "Context injection",
+        "LLM workflows"
+      ],
+      "rating": 2,
+      "stars": 287,
+      "forks": 26,
+      "openIssues": 4,
+      "lastUpdated": "2025-11-19",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "score": 33
+    },
+    {
+      "id": "gitingest",
+      "name": "Gitingest",
+      "description": "Prompt-friendly summaries of GitHub repositories.",
+      "category": "version-control",
+      "author": "puravparab",
+      "authorUrl": "https://github.com/puravparab",
+      "githubUrl": "https://github.com/puravparab/Gitingest-MCP",
+      "installCommand": "npx -y gitingest-mcp",
+      "isOfficial": false,
+      "tags": [
+        "github",
+        "summaries",
+        "repos",
+        "context"
+      ],
+      "bestFor": [
+        "Repo summaries",
+        "Context generation",
+        "Documentation"
+      ],
+      "rating": 2,
+      "stars": 131,
+      "forks": 26,
+      "openIssues": 3,
+      "lastUpdated": "2025-03-21",
+      "language": "Python",
+      "license": "MIT",
+      "score": 23
+    },
+    {
+      "id": "github-repos-manager",
+      "name": "GitHub Repos Manager",
+      "description": "Token-based GitHub automation with 80+ tools.",
+      "category": "version-control",
+      "author": "kurdin",
+      "authorUrl": "https://github.com/kurdin",
+      "githubUrl": "https://github.com/kurdin/github-repos-manager-mcp",
+      "installCommand": "npx -y github-repos-manager-mcp",
+      "isOfficial": false,
+      "tags": [
+        "github",
+        "automation",
+        "repos",
+        "management"
+      ],
+      "bestFor": [
+        "GitHub automation",
+        "Bulk operations",
+        "Repo management"
+      ],
+      "rating": 2,
+      "stars": 14,
+      "forks": 5,
+      "openIssues": 0,
+      "lastUpdated": "2025-09-25",
+      "language": "JavaScript",
+      "score": 28
     }
   ]
 }

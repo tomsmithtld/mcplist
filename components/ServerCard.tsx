@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { VoteButtons } from './VoteButtons';
 
 interface Server {
@@ -26,7 +27,9 @@ interface ServerCardProps {
 export function ServerCard({ server, index = 0 }: ServerCardProps) {
   const [copied, setCopied] = useState(false);
 
-  const copyCommand = async () => {
+  const copyCommand = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     await navigator.clipboard.writeText(server.installCommand);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -35,8 +38,9 @@ export function ServerCard({ server, index = 0 }: ServerCardProps) {
   const staggerClass = index < 8 ? `stagger-${index + 1}` : '';
 
   return (
-    <div
-      className={`card-hover group border-gradient rounded-xl p-5 opacity-0 animate-fade-in-up ${staggerClass}`}
+    <Link
+      href={`/server/${server.id}`}
+      className={`card-hover group border-gradient rounded-xl p-5 opacity-0 animate-fade-in-up ${staggerClass} block`}
       onMouseMove={(e) => {
         const rect = e.currentTarget.getBoundingClientRect();
         const x = ((e.clientX - rect.left) / rect.width) * 100;
@@ -48,7 +52,7 @@ export function ServerCard({ server, index = 0 }: ServerCardProps) {
       {/* Header */}
       <div className="flex items-start justify-between gap-3 mb-3">
         {/* Vote Buttons */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0" onClick={(e) => e.preventDefault()}>
           <VoteButtons serverId={server.id} />
         </div>
 
@@ -148,6 +152,7 @@ export function ServerCard({ server, index = 0 }: ServerCardProps) {
         href={server.githubUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
         className="inline-flex items-center gap-2 text-sm text-text-muted hover:text-accent transition-colors"
       >
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -158,6 +163,6 @@ export function ServerCard({ server, index = 0 }: ServerCardProps) {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
         </svg>
       </a>
-    </div>
+    </Link>
   );
 }

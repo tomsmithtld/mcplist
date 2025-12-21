@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { VoteButtons } from './VoteButtons';
 
 interface Server {
   id: string;
@@ -46,6 +47,11 @@ export function ServerCard({ server, index = 0 }: ServerCardProps) {
     >
       {/* Header */}
       <div className="flex items-start justify-between gap-3 mb-3">
+        {/* Vote Buttons */}
+        <div className="flex-shrink-0">
+          <VoteButtons serverId={server.id} />
+        </div>
+
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-text-primary text-lg leading-tight truncate group-hover:text-accent transition-colors">
             {server.name}

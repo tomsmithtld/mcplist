@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { VoteButtons } from './VoteButtons';
 
 interface Server {
   id: string;
@@ -37,6 +38,11 @@ export function ServerListItem({ server, index = 0 }: ServerListItemProps) {
     <div
       className={`card-hover group border-gradient rounded-lg p-4 opacity-0 animate-fade-in-up ${staggerClass} flex items-center gap-4`}
     >
+      {/* Vote Buttons */}
+      <div className="flex-shrink-0">
+        <VoteButtons serverId={server.id} compact />
+      </div>
+
       {/* Left: Name and Author */}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">

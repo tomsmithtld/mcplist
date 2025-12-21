@@ -173,4 +173,10 @@
 
 ---
 
-## Last Updated: 2025-12-21 (Phase 1 + Phase 2.1 Complete)
+## Last Updated: 2025-12-21 (Phase 1 + Phase 2.1 Complete + Production Deployed)
+
+### Deployment Notes
+- **Production URL**: https://mcplist.site
+- **Server Count**: 222 servers (107 Official, 115 Community)
+- **Deployment Method**: Manual upload via Cloudflare Pages dashboard
+- **Edge Runtime**: Added to `/server/[id]/page.tsx` for Cloudflare compatibility

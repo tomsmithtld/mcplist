@@ -1,0 +1,16 @@
+name = "mcplist"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Pages configuration
+pages_build_output_dir = ".vercel/output/static"
+
+# Environment variables (secrets set via wrangler secret or dashboard)
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://mcplist.site"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "mcplist-db"
+database_id = "ead56090-2958-4cf2-88eb-c7e0c524abb4"

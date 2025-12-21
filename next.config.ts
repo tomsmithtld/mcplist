@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // SSR mode for Cloudflare Workers (no static export)
   images: {
-    unoptimized: true,
+    unoptimized: true, // Cloudflare doesn't support Next.js Image Optimization
+  },
+  // Ensure compatibility with Cloudflare Workers runtime
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
   },
 };
 

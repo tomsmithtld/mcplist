@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "2.1.0",
-    "lastUpdated": "2026-02-13",
-    "totalServers": 248,
+    "lastUpdated": "2026-03-01",
+    "totalServers": 249,
     "previousCount": 150,
     "dataSource": "awesome-mcp-servers (punkpeye, wong2, appcypher, TensorBlock), modelcontextprotocol/servers, mcp.so, mcpservers.org",
     "metricsUpdated": "2025-12-21T17:38:03.405Z",
@@ -7222,6 +7222,39 @@
       "language": "",
       "license": "",
       "score": 12
+    },
+    {
+      "id": "ai-site-scorer",
+      "name": "AI Site Scorer",
+      "description": "Analyze any website for AI/LLM readiness directly from Cursor, Claude Desktop, or VS Code. 18 automated checks: Schema.org structured data, llms.txt, robots.txt, sitemap, page speed, content quality, E-E-A-T signals, and Open Graph. Returns actionable scores and IDE-ready fix prompts.",
+      "category": "ai-tools",
+      "author": "MinglesAI",
+      "authorUrl": "https://ai-readiness.mingles.ai",
+      "githubUrl": "https://github.com/MinglesAI/ai-site-scorer",
+      "installCommand": "Add to Cursor/Claude Desktop mcp.json \u2014 no local install needed. See https://ai-readiness.mingles.ai",
+      "isOfficial": false,
+      "tags": [
+        "ai-readiness",
+        "seo",
+        "llm",
+        "schema-org",
+        "website-analysis",
+        "cursor",
+        "claude"
+      ],
+      "bestFor": [
+        "Checking website AI readiness before deploying",
+        "Generating IDE fix prompts for SEO/AI issues",
+        "Analyzing competitor sites for LLM visibility"
+      ],
+      "rating": 4,
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 25,
+      "lastUpdated": "2026-03-01",
+      "language": "Python",
+      "license": "MIT",
+      "score": 75
     }
   ]
 }
